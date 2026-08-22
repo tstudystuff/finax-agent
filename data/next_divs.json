@@ -1,0 +1,25 @@
+{
+    "date": "2026-08-26",
+    "dividends": [
+        {
+            "ticker": "RAND",
+            "company": "Rand Capital Corporation Common Stock",
+            "declaration_date": "7/30/2026",
+            "ex_dividend_date": "8/26/2026",
+            "record_date": "8/26/2026",
+            "payment_date": "9/09/2026",
+            "amount": "0.29",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/rand/dividend-history"
+        },
+        {
+            "ticker": "SATA",
+            "company": "Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",
+            "declaration_date": "7/14/2026",
+            "ex_dividend_date": "8/26/2026",
+            "record_date": "8/26/2026",
+            "payment_date": "8/27/2026",
+            "amount": "0.0516",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/sata/dividend-history"
+        }
+    ]
+}

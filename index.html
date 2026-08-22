@@ -1,0 +1,211 @@
+To create the initial Finex Agent website and its frontend data-loading cod[3D[K
+code, we will follow the steps below:
+
+1. **Create the `index.html` file** to serve as the main page of the Finex [K
+Agent website.
+2. **Create the `style.css` file** to style the HTML elements.
+3. **Create the `app.js` file** to handle data loading and display.
+4. **Create the `data/next_divs.json` file** to provide the sample data.
+
+Let's go through each step in detail.
+
+### Step 1: Create `index.html`
+
+Create the `index.html` file in the project root directory:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finex Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Finex Agent</h1>
+    </header>
+    <section id="upcoming-dividends">
+        <h2>Upcoming Dividends</h2>
+        <table id="dividends-table">
+            <thead>
+                <tr>
+                    <th>Ticker</th>
+                    <th>Company</th>
+                    <th>Declaration Date</th>
+                    <th>Ex-Dividend Date</th>
+                    <th>Record Date</th>
+                    <th>Payment Date</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be loaded here -->
+            </tbody>
+        </table>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+</html>
+```
+
+### Step 2: Create `style.css`
+
+Create the `style.css` file in the `css` directory:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#upcoming-dividends {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dividends-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#dividends-table th,
+#dividends-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#dividends-table th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+#dividends-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#dividends-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#dividends-table a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#dividends-table a:hover {
+    text-decoration: underline;
+}
+
+#no-data {
+    text-align: center;
+    padding: 1rem;
+    color: #777;
+}
+```
+
+### Step 3: Create `app.js`
+
+Create the `app.js` file in the `js` directory:
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+    const dataUrl = 'data/next_divs.json';
+    const tableBody = document.querySelector('#dividends-table tbody');
+
+    fetch(dataUrl)
+        .then(response => response.json())
+        .then(data => {
+            if (data.date) {
+                document.querySelector('h2').textContent = `Upcoming Divide[6D[K
+Dividends - ${data.date}`;
+            }
+
+            if (data.dividends && data.dividends.length > 0) {
+                data.dividends.forEach(dividend => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td><a href="${dividend.ticker_url}" target="_blank[14D[K
+target="_blank" rel="noopener noreferrer">${dividend.ticker}</a></td>
+                        <td>${dividend.company}</td>
+                        <td>${dividend.declaration_date}</td>
+                        <td>${dividend.ex_dividend_date}</td>
+                        <td>${dividend.record_date}</td>
+                        <td>${dividend.payment_date}</td>
+                        <td>${dividend.amount}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            } else {
+                tableBody.innerHTML = '<tr><td colspan="7">No upcoming divi[4D[K
+dividends</td></tr>';
+            }
+        })
+        .catch(error => {
+            tableBody.innerHTML = '<tr><td colspan="7">Error loading data</[6D[K
+data</td></tr>';
+            console.error('Error fetching data:', error);
+        });
+});
+```
+
+### Step 4: Create `data/next_divs.json`
+
+Create the `data/next_divs.json` file in the `data` directory with the prov[4D[K
+provided sample data:
+
+```json
+{
+    "date": "2026-08-26",
+    "dividends": [
+        {
+            "ticker": "RAND",
+            "company": "Rand Capital Corporation Common Stock",
+            "declaration_date": "7/30/2026",
+            "ex_dividend_date": "8/26/2026",
+            "record_date": "8/26/2026",
+            "payment_date": "9/09/2026",
+            "amount": "0.29",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ra[49D[K
+"https://www.nasdaq.com/market-activity/stocks/rand/dividend-history"
+        },
+        {
+            "ticker": "SATA",
+            "company": "Strive, Inc. Variable Rate Series A Perpetual Prefe[5D[K
+Preferred Stock",
+            "declaration_date": "7/14/2026",
+            "ex_dividend_date": "8/26/2026",
+            "record_date": "8/26/2026",
+            "payment_date": "8/27/2026",
+            "amount": "0.0516",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/sa[49D[K
+"https://www.nasdaq.com/market-activity/stocks/sata/dividend-history"
+        }
+    ]
+}
+```
+
+### Inspect Your Work
+
+Open the `index.html` file in a web browser to see the Finex Agent website [K
+in action. Ensure that the table displays the dividend data correctly, and [K
+that the error handling works as expected if the data file cannot be loaded[6D[K
+loaded.
+
+By following these steps, you have created a basic and responsive Finex Age[3D[K
+Agent website that dynamically loads dividend data from a JSON file.
+
