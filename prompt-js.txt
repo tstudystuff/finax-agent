@@ -1,0 +1,77 @@
+ollama run qwen2.5-coder:7b 'OUTPUT ONLY RAW JAVASCRIPT. Do not output HTML. Do not output Markdown. Do not use code fences. Do not explain anything. Do not prefix the response with ```javascript or any other text.
+
+Create the complete contents of js/app.js for a Finex Agent webpage.
+
+When the DOM is ready, fetch exactly:
+
+data/next_divs.json
+
+The JSON contains:
+
+{
+  "date": "2026-08-26",
+  "dividends": [
+    {
+      "ticker": "RAND",
+      "company": "Rand Capital Corporation Common Stock",
+      "declaration_date": "7/30/2026",
+      "ex_dividend_date": "8/26/2026",
+      "record_date": "8/26/2026",
+      "payment_date": "9/09/2026",
+      "amount": "0.29",
+      "ticker_url": "https://www.nasdaq.com/market-activity/stocks/rand/dividend-history"
+    }
+  ]
+}
+
+Find the table body using:
+
+document.querySelector("#dividends-table tbody")
+
+Find the dataset date element using:
+
+document.querySelector("#dataset-date")
+
+For every object in data.dividends, create one table row.
+
+The columns must be:
+
+Ticker
+Company
+Declaration Date
+Ex-Dividend Date
+Record Date
+Payment Date
+Amount
+
+The ticker cell must contain an anchor element.
+
+The anchor visible text must ONLY be dividend.ticker.
+
+The anchor href must be dividend.ticker_url.
+
+The anchor must have target="_blank".
+
+The anchor must have rel="noopener noreferrer".
+
+Do NOT display ticker_url anywhere else.
+
+Do NOT hardcode RAND or SATA.
+
+Use the values from the JSON.
+
+If there are no dividends, display a table row saying "No upcoming dividends."
+
+Set the dataset-date element text using data.date.
+
+If the JSON cannot be loaded, display an error message in the table.
+
+Use normal JavaScript syntax.
+
+Do not use backslashes before HTML characters.
+
+Do not escape underscores.
+
+Do not include terminal control characters.
+
+Return ONLY valid JavaScript source code.' > js/app.js

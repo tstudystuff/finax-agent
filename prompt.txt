@@ -1,229 +1,207 @@
-You are working inside the Finex Agent project directory.
+Create the complete frontend for the Finex Agent dividend page.
 
-PROJECT ROOT:
+IMPORTANT OUTPUT RULES:
 
-/Users/tt/ai-repos/finex-agent
+Return ONLY the raw source code for the requested file.
 
-Your task is to build the first version of the Finex Agent website.
+Do NOT use Markdown code fences.
 
-IMPORTANT:
+Do NOT include explanations.
 
-* Work only inside the project directory.
-* Do not access or modify files outside the project directory.
-* Do not modify, rewrite, or redesign the Nasdaq Selenium scraper.
-* Do not create an autonomous agent.
-* Do not add shell execution.
-* Do not install or change Ollama, Python, Selenium, or the existing Qwen setup.
-* Keep this task focused on the initial website.
+Do NOT include ```html.
 
-## Goal
+Do NOT include ```css.
 
-Create an `index.html` page that displays the upcoming Nasdaq dividend data.
+Do NOT include numbered steps.
 
-The page should be designed as the beginning of a broader personal financial application called Finex Agent.
+Do NOT include terminal commands.
 
-For now, the primary feature is an Upcoming Dividends table.
+Do NOT include escaped HTML such as `\<html>`.
 
-## Data
+Return normal, valid source code exactly as it should appear inside the file.
 
-The application may receive dividend data from either JSON or CSV.
+I will redirect your output directly into a file.
 
-The current JSON format is:
+PROJECT:
 
-```json
+/Users/tt/ai-repos/finax-agent
+
+Create the following two frontend files:
+
+1. `index.html`
+2. `css/style.css`
+
+The project already contains the working Nasdaq Selenium scraper and its data. Do NOT modify the scraper.
+
+The current data file is:
+
+`data/next_divs.json`
+
+The JSON has this structure:
+
 {
-    "date": "2026-08-26",
-    "dividends": [
-        {
-            "ticker": "RAND",
-            "company": "Rand Capital Corporation Common Stock",
-            "declaration_date": "7/30/2026",
-            "ex_dividend_date": "8/26/2026",
-            "record_date": "8/26/2026",
-            "payment_date": "9/09/2026",
-            "amount": "0.29",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/rand/dividend-history"
-        },
-        {
-            "ticker": "SATA",
-            "company": "Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",
-            "declaration_date": "7/14/2026",
-            "ex_dividend_date": "8/26/2026",
-            "record_date": "8/26/2026",
-            "payment_date": "8/27/2026",
-            "amount": "0.0516",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/sata/dividend-history"
-        }
-    ]
+"date": "2026-08-26",
+"dividends": [
+{
+"ticker": "RAND",
+"company": "Rand Capital Corporation Common Stock",
+"declaration_date": "7/30/2026",
+"ex_dividend_date": "8/26/2026",
+"record_date": "8/26/2026",
+"payment_date": "9/09/2026",
+"amount": "0.29",
+"ticker_url": "https://www.nasdaq.com/market-activity/stocks/rand/dividend-history"
+},
+{
+"ticker": "SATA",
+"company": "Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",
+"declaration_date": "7/14/2026",
+"ex_dividend_date": "8/26/2026",
+"record_date": "8/26/2026",
+"payment_date": "8/27/2026",
+"amount": "0.0516",
+"ticker_url": "https://www.nasdaq.com/market-activity/stocks/sata/dividend-history"
 }
-```
+]
+}
 
-The corresponding CSV format is:
+## INDEX.HTML REQUIREMENTS
 
-```csv
-Ticker,Company,Declaration Date,Ex-Dividend Date,Record Date,Payment Date,Amount,Ticker URL
-RAND,Rand Capital Corporation Common Stock,7/30/2026,8/26/2026,8/26/2026,9/09/2026,0.29,https://www.nasdaq.com/market-activity/stocks/rand/dividend-history
-SATA,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",7/14/2026,8/26/2026,8/26/2026,8/27/2026,0.0516,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-```
+Create a complete valid HTML5 document.
 
-## Data architecture
+The page title should be:
 
-Do NOT hardcode the dividend records into `index.html`.
+Finex Agent
 
-The page must load data dynamically.
+The page should have a main heading:
 
-Use `data/next_divs.json` as the primary current data source.
+Finex Agent
 
-However, structure the JavaScript/data-loading code cleanly so that CSV can also be supported.
+Create an Upcoming Dividends section.
 
-The application may receive data from JSON or CSV in the future, so do not tightly couple the UI to only one format.
+The table must have exactly these visible columns:
 
-If necessary, create:
+Ticker
+Company
+Declaration Date
+Ex-Dividend Date
+Record Date
+Payment Date
+Amount
 
-```text
-css/style.css
-js/app.js
-```
+Do NOT display a Ticker URL column.
 
-Keep the structure simple.
+Do NOT hardcode RAND, SATA, or any dividend records into the HTML.
 
-Do not introduce frameworks or unnecessary dependencies.
+The HTML must load:
 
-Use plain HTML, CSS, and JavaScript.
+`css/style.css`
 
-## Table
+The HTML must also load a JavaScript file at:
 
-Create an Upcoming Dividends table with these columns:
+`js/app.js`
 
-1. Ticker
-2. Company
-3. Declaration Date
-4. Ex-Dividend Date
-5. Record Date
-6. Payment Date
-7. Amount
+The JavaScript file will be created separately later.
 
-Do NOT display the raw ticker URL as a table column.
+The table should contain an empty `<tbody>` that JavaScript can populate.
 
-### Ticker requirement
+Display an element where JavaScript can place the dataset date from the JSON.
 
-The first column must display ONLY the ticker letters.
+For example, JavaScript should eventually be able to change it to:
+
+Upcoming Dividends — August 26, 2026
+
+Do NOT hardcode August 26, 2026 into the HTML.
+
+## TICKER REQUIREMENT
+
+The first table column is extremely important.
+
+The visible content of the ticker cell must be ONLY the ticker letters.
 
 For example:
 
 RAND
 
-and:
+The ticker must eventually be rendered as an `<a>` element.
 
-SATA
+The anchor must use the `ticker_url` from the JSON data as its `href`.
 
-The ticker must be an HTML link.
+The final generated HTML from JavaScript should be equivalent to:
 
-The link's `href` must come from the `ticker_url` field in the data.
+<a href="https://www.nasdaq.com/market-activity/stocks/rand/dividend-history" target="_blank" rel="noopener noreferrer">RAND</a>
 
-For RAND:
+The user should see only:
 
-```text
 RAND
-```
 
-should link to:
+When RAND is clicked, the Nasdaq dividend-history URL must open in a new browser tab.
 
-```text
-https://www.nasdaq.com/market-activity/stocks/rand/dividend-history
-```
+Do NOT display the raw URL.
 
-For SATA:
+Do NOT hardcode the URL.
 
-```text
-SATA
-```
+The JavaScript will obtain both `ticker` and `ticker_url` from the JSON data.
 
-should link to:
+## RESPONSIVE DESIGN
 
-```text
-https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-```
-
-The Nasdaq ticker link should:
-
-* open in a new browser tab
-* use `target="_blank"`
-* use `rel="noopener noreferrer"`
-
-Do not display the URL itself.
-
-## Date
-
-Display the dataset's top-level `date` prominently as the upcoming ex-dividend date being displayed.
-
-For the supplied data, the page should indicate:
-
-August 26, 2026
-
-Do not hardcode that date. Read it from the JSON data.
-
-## Design
-
-Create a clean, modern, responsive financial dashboard.
-
-Keep it relatively simple.
+Create clean, modern CSS appropriate for a personal financial dashboard.
 
 The page should:
 
-* have a Finex Agent heading
-* have an Upcoming Dividends section
-* show the data in a readable table
-* work on desktop and mobile
-* have appropriate spacing and typography
-* handle long company names gracefully
-* have visually distinct table headers
-* make ticker links clearly recognizable as links
+* look good on desktop
+* work on mobile
+* have a centered content area
+* have a clear Finex Agent heading
+* have a clean Upcoming Dividends section
+* have a readable table
+* have clear table headers
+* have comfortable spacing
+* make ticker links visually recognizable as clickable
+* handle long company names
+* allow the table to scroll horizontally on very small screens if necessary
 
-Do not overbuild the application.
+Keep the design professional but simple.
 
-Do not add portfolios, taxes, expenses, charts, authentication, databases, APIs, or other financial features yet.
+Do not use external CSS frameworks.
 
-## Error handling
+Do not use Bootstrap.
 
-If the data file cannot be loaded, display a useful message in the page rather than silently failing.
+Do not use Tailwind.
 
-If there are no dividend records, display an appropriate "No upcoming dividends" message.
+Do not use external dependencies.
 
-## Files
+Use ordinary CSS.
 
-Create only the files that are actually necessary.
+## IMPORTANT SCOPE LIMIT
 
-A reasonable initial structure is:
+Only create the HTML and CSS.
 
-```text
-finex-agent/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── app.js
-└── data/
-    ├── next_divs.json
-    └── next_divs.csv
-```
+Do NOT create:
 
-Do not create unnecessary files.
+* JavaScript
+* Python
+* Selenium code
+* JSON
+* CSV
+* databases
+* APIs
+* authentication
+* portfolios
+* tax features
+* expense features
+* charts
 
-## Important
+The existing data and scraper are already handled elsewhere.
 
-The existing Nasdaq Selenium scraper is considered finished and working.
+## FINAL OUTPUT
 
-Do not modify it.
+Because the output will be redirected directly into files:
 
-Do not attempt to recreate the scraper.
+First return ONLY the complete contents of `index.html`.
 
-Do not move or rename the scraper.
+After that, stop.
 
-Your job in this task is ONLY to create the initial Finex Agent website and its frontend data-loading code.
+Do not return the CSS in the same response.
 
-After creating the files, inspect your work and make sure the HTML, CSS, and JavaScript are internally consistent.
-
-Do not merely describe what should be created.
-
-Actually create the files in the project directory.
+Do not explain anything.

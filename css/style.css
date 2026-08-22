@@ -1,127 +1,97 @@
 ```css
-/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Finex Agent Heading */
-h1 {
-    text-align: center;
+    background-color: #f4f4f4;
     color: #333;
-    margin-bottom: 20px;
 }
 
-/* Section Heading */
-h2 {
-    color: #555;
-    margin-top: 40px;
-    margin-bottom: 20px;
+#finex-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
 
-/* Table Styles */
-table {
+#finex-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#upcoming-dividends {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#upcoming-dividends h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+dividend-table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin-top: 1rem;
 }
 
-th, td {
+dividend-table th, dividend-table td {
+    padding: 1rem;
     border: 1px solid #ddd;
-    padding: 12px;
+}
+
+dividend-table th {
+    background-color: #f2f2f2;
     text-align: left;
 }
 
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+dividend-table td {
+    text-align: right;
 }
 
-/* Responsive Table Styles */
-@media (max-width: 600px) {
-    table, thead, tbody, th, td, tr {
+dividend-table a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+dividend-table a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #upcoming-dividends {
+        padding: 0.5rem;
+    }
+
+    dividend-table {
         display: block;
+        width: auto;
     }
 
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
+    dividend-table thead {
+        display: none;
     }
 
-    tr {
-        border: 1px solid #ccc;
+    dividend-table tbody tr {
+        display: block;
+        border-bottom: 1px solid #ddd;
     }
 
-    td {
+    dividend-table tbody td {
         border: none;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #ddd;
         position: relative;
         padding-left: 50%;
     }
 
-    td:before {
+    dividend-table tbody td:before {
+        content: attr(data-label);
         position: absolute;
-        top: 6px;
         left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-    }
-
-    td:nth-of-type(1):before { content: "Ticker"; }
-    td:nth-of-type(2):before { content: "Company Name"; }
-    td:nth-of-type(3):before { content: "Dividend Date"; }
-    td:nth-of-type(4):before { content: "Amount"; }
-}
-
-/* Ticker Links */
-td.ticker a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-td.ticker a:hover {
-    text-decoration: underline;
-}
-
-/* Spacing */
-.row {
-    margin-bottom: 20px;
-}
-
-/* Typography */
-h1, h2, th {
-    font-family: 'Arial Black', Gadget, sans-serif;
-}
-
-td {
-    font-size: 14px;
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 24px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    td, th {
-        padding: 10px;
+        font-weight: bold;
     }
 }
 ```
