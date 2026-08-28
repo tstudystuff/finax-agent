@@ -1,6 +1,6 @@
 Ticker,Price,Dividend Frequency,Company,Declaration Date,Ex-Dividend Date,Record Date,Payment Date,Amount,Ticker URL
 ACNB,$64.52,12 (Monthly),ACNB Corporation Common Stock,7/28/2026,9/01/2026,9/01/2026,9/15/2026,0.42,https://www.nasdaq.com/market-activity/stocks/acnb/dividend-history
-ADI,$371.19,6 (6x/year),"Analog Devices, Inc. Common Stock",8/18/2026,9/01/2026,9/01/2026,9/15/2026,1.1,https://www.nasdaq.com/market-activity/stocks/adi/dividend-history
+ADI,$373.82,6 (6x/year),"Analog Devices, Inc. Common Stock",8/18/2026,9/01/2026,9/01/2026,9/15/2026,1.1,https://www.nasdaq.com/market-activity/stocks/adi/dividend-history
 ATLCP,$24.18,12 (Monthly),"Atlanticus Holdings Corporation 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",8/06/2026,9/01/2026,9/01/2026,9/15/2026,0.476563,https://www.nasdaq.com/market-activity/stocks/atlcp/dividend-history
 ATLO,$31.43,6 (6x/year),Ames National Corporation Common Stock,8/12/2026,9/01/2026,9/01/2026,9/15/2026,0.24,https://www.nasdaq.com/market-activity/stocks/atlo/dividend-history
 BPYPM,$16.87,12 (Monthly),"Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units, Series 1",7/27/2026,9/01/2026,9/01/2026,9/29/2026,0.390625,https://www.nasdaq.com/market-activity/stocks/bpypm/dividend-history
@@ -14,7 +14,7 @@ FTAIM,$27.5774,12 (Monthly),FTAI Aviation Ltd. 9.500% Fixed-Rate Reset Series D 
 GCMG,$13.8165,12 (Monthly),GCM Grosvenor Inc. Class A Common Stock,8/07/2026,9/01/2026,9/01/2026,9/15/2026,0.12,https://www.nasdaq.com/market-activity/stocks/gcmg/dividend-history
 GTX,$27.43,12 (Monthly),Garrett Motion Inc. Common Stock,7/29/2026,9/01/2026,9/01/2026,9/15/2026,0.08,https://www.nasdaq.com/market-activity/stocks/gtx/dividend-history
 HQI,$16.03,6 (6x/year),"HireQuest, Inc. Common Stock (DE)",8/12/2026,9/01/2026,9/01/2026,9/15/2026,0.06,https://www.nasdaq.com/market-activity/stocks/hqi/dividend-history
-IBKR,$96.56,12 (Monthly),"Interactive Brokers Group, Inc. Class A Common Stock",8/27/2026,9/01/2026,9/01/2026,9/14/2026,0.0875,https://www.nasdaq.com/market-activity/stocks/ibkr/dividend-history
+IBKR,$96.64,12 (Monthly),"Interactive Brokers Group, Inc. Class A Common Stock",8/27/2026,9/01/2026,9/01/2026,9/14/2026,0.0875,https://www.nasdaq.com/market-activity/stocks/ibkr/dividend-history
 ITIC,$304.00,12 (Monthly),Investors Title Company Common Stock,8/10/2026,9/01/2026,9/01/2026,9/15/2026,0.46,https://www.nasdaq.com/market-activity/stocks/itic/dividend-history
 LCNB,$19.34,6 (6x/year),LCNB Corporation Common Stock,8/20/2026,9/01/2026,9/01/2026,9/15/2026,0.22,https://www.nasdaq.com/market-activity/stocks/lcnb/dividend-history
 LFVN,$6.45,12 (Monthly),Lifevantage Corporation Common Stock (Delaware),8/20/2026,9/01/2026,9/01/2026,9/15/2026,0.05,https://www.nasdaq.com/market-activity/stocks/lfvn/dividend-history
@@ -43,5 +43,5 @@ TXRH,$211.5997,12 (Monthly),"Texas Roadhouse, Inc. Common Stock",8/05/2026,9/01/
 UFPI,$85.33,12 (Monthly),"UFP Industries, Inc. Common Stock",7/22/2026,9/01/2026,9/01/2026,9/15/2026,0.36,https://www.nasdaq.com/market-activity/stocks/ufpi/dividend-history
 ULH,$18.94,12 (Monthly),"Universal Logistics Holdings, Inc. Common Stock",7/31/2026,9/01/2026,9/01/2026,10/01/2026,0.105,https://www.nasdaq.com/market-activity/stocks/ulh/dividend-history
 VC,$101.8062,12 (Monthly),Visteon Corporation Common Stock,8/17/2026,9/01/2026,9/01/2026,9/15/2026,0.375,https://www.nasdaq.com/market-activity/stocks/vc/dividend-history
-WEN,$7.8479,6 (6x/year),Wendy's Company (The) Common Stock,8/07/2026,9/01/2026,9/01/2026,9/15/2026,0.07,https://www.nasdaq.com/market-activity/stocks/wen/dividend-history
+WEN,$7.82,6 (6x/year),Wendy's Company (The) Common Stock,8/07/2026,9/01/2026,9/01/2026,9/15/2026,0.07,https://www.nasdaq.com/market-activity/stocks/wen/dividend-history
 ZIONP,$18.02,12 (Monthly),"Zions Bancorporation, N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)",7/30/2026,9/01/2026,9/01/2026,9/15/2026,0.2840474,https://www.nasdaq.com/market-activity/stocks/zionp/dividend-history

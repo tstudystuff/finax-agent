@@ -1,9 +1,11 @@
+
 document.addEventListener("DOMContentLoaded", function () {
   fetch("data/next_divs.json")
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error: ${response.status}`);
       }
+
       return response.json();
     })
     .then(data => {
@@ -22,16 +24,21 @@ document.addEventListener("DOMContentLoaded", function () {
         const row = document.createElement("tr");
         const cell = document.createElement("td");
 
-        cell.colSpan = 7;
+        cell.colSpan = 9;
         cell.textContent = "No upcoming dividends.";
 
         row.appendChild(cell);
         tableBody.appendChild(row);
+
         return;
       }
 
       data.dividends.forEach(dividend => {
         const row = document.createElement("tr");
+
+        // ==================================================
+        // TICKER
+        // ==================================================
 
         const tickerCell = document.createElement("td");
         const tickerLink = document.createElement("a");
@@ -44,23 +51,69 @@ document.addEventListener("DOMContentLoaded", function () {
         tickerCell.appendChild(tickerLink);
         row.appendChild(tickerCell);
 
-        row.appendChild(document.createElement("td")).textContent =
-          dividend.company;
+        // ==================================================
+        // PRICE
+        // ==================================================
 
-        row.appendChild(document.createElement("td")).textContent =
-          dividend.declaration_date;
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.price || "";
 
-        row.appendChild(document.createElement("td")).textContent =
-          dividend.ex_dividend_date;
+        // ==================================================
+        // DIVIDEND FREQUENCY
+        // ==================================================
 
-        row.appendChild(document.createElement("td")).textContent =
-          dividend.record_date;
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.dividend_frequency || "";
 
-        row.appendChild(document.createElement("td")).textContent =
-          dividend.payment_date;
+        // ==================================================
+        // COMPANY
+        // ==================================================
 
-        row.appendChild(document.createElement("td")).textContent =
-          dividend.amount;
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.company;
+
+        // ==================================================
+        // DECLARATION DATE
+        // ==================================================
+
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.declaration_date;
+
+        // ==================================================
+        // EX-DIVIDEND DATE
+        // ==================================================
+
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.ex_dividend_date;
+
+        // ==================================================
+        // RECORD DATE
+        // ==================================================
+
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.record_date;
+
+        // ==================================================
+        // PAYMENT DATE
+        // ==================================================
+
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.payment_date;
+
+        // ==================================================
+        // AMOUNT
+        // ==================================================
+
+        row.appendChild(
+          document.createElement("td")
+        ).textContent = dividend.amount;
 
         tableBody.appendChild(row);
       });
@@ -77,10 +130,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const errorRow = document.createElement("tr");
       const errorCell = document.createElement("td");
 
-      errorCell.colSpan = 7;
+      errorCell.colSpan = 9;
       errorCell.textContent = "Error loading data.";
 
       errorRow.appendChild(errorCell);
       tableBody.appendChild(errorRow);
     });
 });
+

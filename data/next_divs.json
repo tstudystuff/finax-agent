@@ -15,7 +15,7 @@
         },
         {
             "ticker": "ADI",
-            "price": "$371.19",
+            "price": "$373.82",
             "dividend_frequency": "6 (6x/year)",
             "company": "Analog Devices, Inc. Common Stock",
             "declaration_date": "8/18/2026",
@@ -183,7 +183,7 @@
         },
         {
             "ticker": "IBKR",
-            "price": "$96.56",
+            "price": "$96.64",
             "dividend_frequency": "12 (Monthly)",
             "company": "Interactive Brokers Group, Inc. Class A Common Stock",
             "declaration_date": "8/27/2026",
@@ -531,7 +531,7 @@
         },
         {
             "ticker": "WEN",
-            "price": "$7.8479",
+            "price": "$7.82",
             "dividend_frequency": "6 (6x/year)",
             "company": "Wendy's Company (The) Common Stock",
             "declaration_date": "8/07/2026",
