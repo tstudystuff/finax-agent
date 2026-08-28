@@ -1,26 +1,18 @@
 // letter-focus.js
 
 let lastLetterPressed = null;
-
-
 // ==========================================================
 // LETTER FOCUS
 // ==========================================================
-
 export function letterFocus({ e }) {
-
     if (!e || !e.key) {
         return;
     }
-
-
     // ======================================================
     // IGNORE INPUTS / TEXTAREAS
     // ======================================================
-
     const tag =
         e.target.tagName;
-
     if (
         tag === "INPUT" ||
         tag === "TEXTAREA" ||
@@ -28,40 +20,22 @@ export function letterFocus({ e }) {
     ) {
         return;
     }
-
-
     // ======================================================
     // IGNORE MODIFIERS
     // ======================================================
-
-    if (
-        e.metaKey ||
-        e.ctrlKey ||
-        e.altKey
-    ) {
+    if (e.metaKey || e.ctrlKey || e.altKey) {
         return;
     }
-
-
     // ======================================================
     // GET KEY
     // ======================================================
-
-    const key =
-        e.key.toLowerCase();
-
-    if (
-        key.length !== 1 ||
-        !/^[a-z0-9]$/.test(key)
-    ) {
+    const key = e.key.toLowerCase();
+    if ( key.length !== 1 || !/^[a-z0-9]$/.test(key)) {
         return;
     }
-
-
     // ======================================================
     // FIND TICKER LINKS
     // ======================================================
-
     const tickerLinks = [
         ...document.querySelectorAll(
             "#dividends-table tbody a"
