@@ -1,74 +1,190 @@
- // letter-focus.js
+// letter-focus.js
+
 let lastLetterPressed = null;
-import { handleMKey } from "./m-key-handler.js";
-import { mainTargetDiv } from "./main-content-nav.js";
-import { lastClickedSideBarLink } from "./side-bar-nav.js";
-import { mainContainer, sideBarBtn } from "../ui/toggle-side-bar.js";
-import { navBarLessonTitle } from "../ui/toggle-side-bar.js";
-export function letterFocus({ e, focusZone }) {
-    if (!e || !e.key) return;    
-    // Ignore typing fields and modifier keys
-    const tag = e.target.tagName;
-    if (tag === 'INPUT' || tag === 'TEXTAREA' || e.target.isContentEditable) return;
-    if (e.metaKey || e.ctrlKey || e.altKey) return;
-    const key = e.key.toLowerCase();
-    if (key.length !== 1 || !/^[a-z0-9]$/.test(key)) return;
-    // Find visible, valid elements
-    const allEls = [...document.querySelectorAll('th')].filter(el => {
-        const rect = el.getBoundingClientRect();
-        return el.offsetParent !== null && rect.width > 0 && rect.height > 0;
-    });
-    // Filter elements by ID starting with pressed key
-    const matching = allEls.filter(el => {
-        const id = el.id?.toLowerCase?.() || '';
-        return (
-            id.startsWith(key) &&
-            id !== 'targetdiv' &&
-            id !== 'targetheaderh3'
+
+
+// ==========================================================
+// LETTER FOCUS
+// ==========================================================
+
+export function letterFocus({ e }) {
+
+    if (!e || !e.key) {
+        return;
+    }
+
+
+    // ======================================================
+    // IGNORE INPUTS / TEXTAREAS
+    // ======================================================
+
+    const tag =
+        e.target.tagName;
+
+    if (
+        tag === "INPUT" ||
+        tag === "TEXTAREA" ||
+        e.target.isContentEditable
+    ) {
+        return;
+    }
+
+
+    // ======================================================
+    // IGNORE MODIFIERS
+    // ======================================================
+
+    if (
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey
+    ) {
+        return;
+    }
+
+
+    // ======================================================
+    // GET KEY
+    // ======================================================
+
+    const key =
+        e.key.toLowerCase();
+
+    if (
+        key.length !== 1 ||
+        !/^[a-z0-9]$/.test(key)
+    ) {
+        return;
+    }
+
+
+    // ======================================================
+    // FIND TICKER LINKS
+    // ======================================================
+
+    const tickerLinks = [
+        ...document.querySelectorAll(
+            "#dividends-table tbody a"
+        )
+    ];
+
+
+    // ======================================================
+    // FIND MATCHING TICKERS
+    // ======================================================
+
+    const matching =
+        tickerLinks.filter(link => {
+
+            const ticker =
+                link.textContent
+                    .trim()
+                    .toLowerCase();
+
+            return ticker.startsWith(key);
+
+        });
+
+
+    // ======================================================
+    // NOTHING MATCHED
+    // ======================================================
+
+    if (matching.length === 0) {
+
+        console.log(
+            `No ticker starts with "${key}"`
         );
-    });
-// SPECIAL CASES for mainTargetDiv and sideBar in side-bar-nav.js and main-content-nav.js
-    if (focusZone === 'mainTargetDiv'){
-        
-        if (key === 'm' ) {
-            handleMKey({e,focusZone});
-            // console.log('here')
-            return;
-            // console.log('letter-focus.js')
-        }
+
+        return;
+
     }
-    if(key === 's'){
-        if(focusZone === 'mainTargetDiv'){
-            if(mainContainer.classList.contains('collapsed')){
-                sideBarBtn.focus()
-            }
-            return 
-        }
-        if(focusZone === 'sideBar'){
-            return 
-        }
-    }
-    if (matching.length === 0) return;
-    const activeEl = document.activeElement;
-    const activeIndex = matching.indexOf(activeEl);
+
+
+    // ======================================================
+    // CURRENT FOCUS
+    // ======================================================
+
+    const activeEl =
+        document.activeElement;
+
+    const activeIndex =
+        matching.indexOf(activeEl);
+
+
+    // ======================================================
+    // DETERMINE NEXT TARGET
+    // ======================================================
+
     let newIndex;
+
+
+    // New letter
     if (key !== lastLetterPressed) {
-        newIndex = e.shiftKey ? matching.length - 1 : 0;
-    } else {
+
+        newIndex =
+            e.shiftKey
+                ? matching.length - 1
+                : 0;
+
+    }
+
+    // Same letter
+    else {
+
         if (activeIndex === -1) {
-            newIndex = e.shiftKey ? matching.length - 1 : 0;
+
+            newIndex =
+                e.shiftKey
+                    ? matching.length - 1
+                    : 0;
+
         } else {
-            newIndex = e.shiftKey
-                ? (activeIndex - 1 + matching.length) % matching.length
-                : (activeIndex + 1) % matching.length;
+
+            newIndex =
+                e.shiftKey
+
+                    ? (
+                        activeIndex -
+                        1 +
+                        matching.length
+                    ) % matching.length
+
+                    : (
+                        activeIndex +
+                        1
+                    ) % matching.length;
+
         }
+
     }
-    const target = matching[newIndex];
-    if (!target) return;
-    // Ensure focusability
-    if (typeof target.focus !== 'function') {
-        target.setAttribute('tabindex', '-1');
+
+
+    // ======================================================
+    // FOCUS TARGET
+    // ======================================================
+
+    const target =
+        matching[newIndex];
+
+    if (!target) {
+        return;
     }
+
+
     target.focus();
-    lastLetterPressed = key;
+
+    lastLetterPressed =
+        key;
+
+
+    // ======================================================
+    // DEBUG
+    // ======================================================
+
+    console.log(
+        "Focused ticker:",
+        target.textContent
+    );
+
 }

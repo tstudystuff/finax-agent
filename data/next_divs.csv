@@ -1,47 +1,47 @@
 Ticker,Share Price,Frequency,Dividend Amount,Company,Payment Date,Ex-Dividend Date,Ticker URL
-ACNB,$65.10,Unknown,0.42,ACNB Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/acnb/dividend-history
-ADI,$365.75,Bi-Weekly,1.1,"Analog Devices, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/adi/dividend-history
-ATLCP,$24.20,Unknown,0.476563,"Atlanticus Holdings Corporation 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/atlcp/dividend-history
-ATLO,$31.40,Unknown,0.24,Ames National Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/atlo/dividend-history
-BPYPM,$16.8794,12 (Monthly),0.390625,"Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units, Series 1",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypm/dividend-history
-BPYPN,$14.095,12 (Monthly),0.359375,"Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units, Series 3",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypn/dividend-history
-BPYPO,$15.0517,12 (Monthly),0.3984375,"Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units, Series 2",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypo/dividend-history
-BPYPP,$16.3253,12 (Monthly),0.40625,Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units,9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypp/dividend-history
-CCNE,$34.06,Unknown,0.19,CNB Financial Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ccne/dividend-history
-FFBC,$32.77,Unknown,0.26,First Financial Bancorp. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ffbc/dividend-history
-FGNXP,$24.91,Unknown,0.5,FG Nexus Inc. 8.00% Cumulative Preferred Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/fgnxp/dividend-history
-FTAIM,$27.48,Unknown,0.59375,FTAI Aviation Ltd. 9.500% Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred Shares,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ftaim/dividend-history
-GCMG,$13.83,Unknown,0.12,GCM Grosvenor Inc. Class A Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/gcmg/dividend-history
-GTX,$27.22,Unknown,0.08,Garrett Motion Inc. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/gtx/dividend-history
-HQI,$16.89,Unknown,0.06,"HireQuest, Inc. Common Stock (DE)",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/hqi/dividend-history
-IBKR,$96.335,Unknown,0.0875,"Interactive Brokers Group, Inc. Class A Common Stock",9/14/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ibkr/dividend-history
-ITIC,$305.30,Unknown,0.46,Investors Title Company Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/itic/dividend-history
-LCNB,$19.345,Bi-Weekly,0.22,LCNB Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/lcnb/dividend-history
-LFVN,$6.28,Unknown,0.05,Lifevantage Corporation Common Stock (Delaware),9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/lfvn/dividend-history
-LILAP,$20.90,Unknown,0.5625,Liberty Latin America Ltd. 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/lilap/dividend-history
-MCHPP,$64.84,Unknown,0.9375,Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mchpp/dividend-history
-MCRI,$124.105,Unknown,0.3,"Monarch Casino & Resort, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mcri/dividend-history
-MFICL,$25.57,Unknown,0.5,MidCap Financial Investment Corporation 8.00% Notes due 2028,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mficl/dividend-history
-MGEE,$78.948,Unknown,0.5083,"MGE Energy, Inc",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mgee/dividend-history
-MVBF,$30.675,Unknown,0.17,MVB Financial Corp. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mvbf/dividend-history
-NBTB,$51.59,Unknown,0.4,NBT Bancorp Inc. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/nbtb/dividend-history
-PANL,$8.17,Unknown,0.1,Pangaea Logistics Solutions Ltd. Common Shares,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/panl/dividend-history
-POWWP,$23.90,Unknown,0.546875,Outdoor Holding Company 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/powwp/dividend-history
-PRDO,$33.81,Unknown,0.17,Perdoceo Education Corporation Common Stock,9/10/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/prdo/dividend-history
-PTEN,$12.22,Unknown,0.1,"Patterson-UTI Energy, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/pten/dividend-history
-RCKY,$46.10,Bi-Weekly,0.17,"Rocky Brands, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/rcky/dividend-history
-SAFT,$103.78,Unknown,0.92,"Safety Insurance Group, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/saft/dividend-history
-SATA,$100.005,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/02/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-SSNC,$83.76,Bi-Weekly,0.3,"SS&C Technologies Holdings, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ssnc/dividend-history
-STRRP,$9.84,Unknown,0.25,"Star Equity Holdings, Inc. 10% Series A Cumulative Perpetual Preferred Stock",9/10/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/strrp/dividend-history
-TCBI,$98.65,Unknown,0.2,"Texas Capital Bancshares, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tcbi/dividend-history
-TCBIO,$20.825,Unknown,0.359375,"Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tcbio/dividend-history
-TPGXL,$22.50,Unknown,0.434375,"TPG Operating Group II, L.P. 6.950% Fixed-Rate Junior Subordinated Notes due 2064",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tpgxl/dividend-history
-TRMK,$46.33,Unknown,0.25,Trustmark Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/trmk/dividend-history
-TW,$108.34,Unknown,0.14,Tradeweb Markets Inc. Class A Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tw/dividend-history
-TXRH,$200.10,12 (Monthly),0.75,"Texas Roadhouse, Inc. Common Stock",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/txrh/dividend-history
-UFPI,$85.16,Unknown,0.36,"UFP Industries, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ufpi/dividend-history
-ULH,$19.18,12 (Monthly),0.105,"Universal Logistics Holdings, Inc. Common Stock",10/01/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ulh/dividend-history
-VC,$101.96,Unknown,0.375,Visteon Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/vc/dividend-history
-WEN,$8.13,Unknown,0.07,Wendy's Company (The) Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/wen/dividend-history
-ZIONP,$18.06,Unknown,0.2840474,"Zions Bancorporation, N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/zionp/dividend-history
+ACNB,$65.05,4 (Quarterly),0.42,ACNB Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/acnb/dividend-history
+ADI,$364.93,4 (Quarterly),1.1,"Analog Devices, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/adi/dividend-history
+ATLCP,$24.18,4 (Quarterly),0.476563,"Atlanticus Holdings Corporation 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/atlcp/dividend-history
+ATLO,$31.50,4 (Quarterly),0.24,Ames National Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/atlo/dividend-history
+BPYPM,$16.91,4 (Quarterly),0.390625,"Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units, Series 1",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypm/dividend-history
+BPYPN,$14.0604,4 (Quarterly),0.359375,"Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units, Series 3",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypn/dividend-history
+BPYPO,$15.50,4 (Quarterly),0.3984375,"Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units, Series 2",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypo/dividend-history
+BPYPP,$16.3253,4 (Quarterly),0.40625,Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units,9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/bpypp/dividend-history
+CCNE,$34.03,4 (Quarterly),0.19,CNB Financial Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ccne/dividend-history
+FFBC,$32.795,4 (Quarterly),0.26,First Financial Bancorp. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ffbc/dividend-history
+FGNXP,$25.20,4 (Quarterly),0.5,FG Nexus Inc. 8.00% Cumulative Preferred Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/fgnxp/dividend-history
+FTAIM,$27.48,4 (Quarterly),0.59375,FTAI Aviation Ltd. 9.500% Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred Shares,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ftaim/dividend-history
+GCMG,$13.82,4 (Quarterly),0.12,GCM Grosvenor Inc. Class A Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/gcmg/dividend-history
+GTX,$27.30,4 (Quarterly),0.08,Garrett Motion Inc. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/gtx/dividend-history
+HQI,$16.06,4 (Quarterly),0.06,"HireQuest, Inc. Common Stock (DE)",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/hqi/dividend-history
+IBKR,$97.3701,4 (Quarterly),0.0875,"Interactive Brokers Group, Inc. Class A Common Stock",9/14/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ibkr/dividend-history
+ITIC,$307.12,4 (Quarterly),0.46,Investors Title Company Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/itic/dividend-history
+LCNB,$19.345,4 (Quarterly),0.22,LCNB Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/lcnb/dividend-history
+LFVN,$6.48,4 (Quarterly),0.05,Lifevantage Corporation Common Stock (Delaware),9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/lfvn/dividend-history
+LILAP,$20.98,Unknown,0.5625,Liberty Latin America Ltd. 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/lilap/dividend-history
+MCHPP,$64.96,4 (Quarterly),0.9375,Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mchpp/dividend-history
+MCRI,$124.02,4 (Quarterly),0.3,"Monarch Casino & Resort, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mcri/dividend-history
+MFICL,$25.57,4 (Quarterly),0.5,MidCap Financial Investment Corporation 8.00% Notes due 2028,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mficl/dividend-history
+MGEE,$78.70,4 (Quarterly),0.5083,"MGE Energy, Inc",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mgee/dividend-history
+MVBF,$30.675,4 (Quarterly),0.17,MVB Financial Corp. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/mvbf/dividend-history
+NBTB,$51.545,4 (Quarterly),0.4,NBT Bancorp Inc. Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/nbtb/dividend-history
+PANL,$8.175,4 (Quarterly),0.1,Pangaea Logistics Solutions Ltd. Common Shares,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/panl/dividend-history
+POWWP,$23.906,4 (Quarterly),0.546875,Outdoor Holding Company 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/powwp/dividend-history
+PRDO,$33.62,4 (Quarterly),0.17,Perdoceo Education Corporation Common Stock,9/10/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/prdo/dividend-history
+PTEN,$12.28,4 (Quarterly),0.1,"Patterson-UTI Energy, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/pten/dividend-history
+RCKY,$45.38,4 (Quarterly),0.17,"Rocky Brands, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/rcky/dividend-history
+SAFT,$103.79,4 (Quarterly),0.92,"Safety Insurance Group, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/saft/dividend-history
+SATA,$100.0097,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/02/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+SSNC,$83.75,4 (Quarterly),0.3,"SS&C Technologies Holdings, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ssnc/dividend-history
+STRRP,$9.95,4 (Quarterly),0.25,"Star Equity Holdings, Inc. 10% Series A Cumulative Perpetual Preferred Stock",9/10/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/strrp/dividend-history
+TCBI,$98.38,Unknown,0.2,"Texas Capital Bancshares, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tcbi/dividend-history
+TCBIO,$20.7613,4 (Quarterly),0.359375,"Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tcbio/dividend-history
+TPGXL,$22.5001,4 (Quarterly),0.434375,"TPG Operating Group II, L.P. 6.950% Fixed-Rate Junior Subordinated Notes due 2064",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tpgxl/dividend-history
+TRMK,$46.36,4 (Quarterly),0.25,Trustmark Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/trmk/dividend-history
+TW,$108.92,4 (Quarterly),0.14,Tradeweb Markets Inc. Class A Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/tw/dividend-history
+TXRH,$199.83,4 (Quarterly),0.75,"Texas Roadhouse, Inc. Common Stock",9/29/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/txrh/dividend-history
+UFPI,$84.96,Unknown,0.36,"UFP Industries, Inc. Common Stock",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ufpi/dividend-history
+ULH,$19.39,4 (Quarterly),0.105,"Universal Logistics Holdings, Inc. Common Stock",10/01/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/ulh/dividend-history
+VC,$102.35,4 (Quarterly),0.375,Visteon Corporation Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/vc/dividend-history
+WEN,$8.175,4 (Quarterly),0.07,Wendy's Company (The) Common Stock,9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/wen/dividend-history
+ZIONP,$18.115,4 (Quarterly),0.2840474,"Zions Bancorporation, N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)",9/15/2026,9/01/2026,https://www.nasdaq.com/market-activity/stocks/zionp/dividend-history
