@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#finex-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#finex-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#upcoming-dividends {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#upcoming-dividends h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+dividend-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+dividend-table th, dividend-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+dividend-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+dividend-table td {
+    text-align: right;
+}
+
+dividend-table a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+dividend-table a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #upcoming-dividends {
+        padding: 0.5rem;
+    }
+
+    dividend-table {
+        display: block;
+        width: auto;
+    }
+
+    dividend-table thead {
+        display: none;
+    }
+
+    dividend-table tbody tr {
+        display: block;
+        border-bottom: 1px solid #ddd;
+    }
+
+    dividend-table tbody td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    dividend-table tbody td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
+}
+
