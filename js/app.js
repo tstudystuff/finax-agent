@@ -105,37 +105,68 @@ document.addEventListener("DOMContentLoaded", function () {
                     document.createElement("tr");
 
 
-                // ==================================================
-                // 1. TICKER
-                // ==================================================
+            // ==================================================
+            // 1. TICKER
+            // ==================================================
 
-                const tickerCell =
-                    document.createElement("td");
+            const tickerCell =
+                document.createElement("td");
 
-                const tickerLink =
+
+            // --------------------------------------------------
+            // NASDAQ TICKER LINK
+            // --------------------------------------------------
+
+            const tickerLink =
+                document.createElement("a");
+
+            tickerLink.textContent =
+                dividend.ticker || "";
+
+            tickerLink.href =
+                dividend.ticker_url || "#";
+
+            tickerLink.target = "_blank";
+
+            tickerLink.rel =
+                "noopener noreferrer";
+
+            // Give the ticker a predictable ID
+            tickerLink.id =
+                `ticker-${dividend.ticker || ""}`
+                    .toLowerCase();
+
+            tickerCell.appendChild(tickerLink);
+
+
+                // --------------------------------------------------
+                // YAHOO FINANCE LINK
+                // --------------------------------------------------
+
+                const yahooLink =
                     document.createElement("a");
 
-                tickerLink.textContent =
-                    dividend.ticker || "";
+                yahooLink.textContent =
+                    "Yahoo";
 
-                tickerLink.href =
-                    dividend.ticker_url || "#";
+                yahooLink.href =
+                    `https://finance.yahoo.com/quote/${dividend.ticker || ""}/financials/`;
 
-                tickerLink.target = "_blank";
+                yahooLink.target = "_blank";
 
-                tickerLink.rel =
+                yahooLink.rel =
                     "noopener noreferrer";
 
-                // Give the ticker a predictable ID
-                tickerLink.id =
-                    `ticker-${dividend.ticker || ""}`
-                        .toLowerCase();
 
-                tickerCell.appendChild(tickerLink);
+                // Put Yahoo directly underneath the ticker
+                tickerCell.appendChild(
+                    document.createElement("br")
+                );
+
+                tickerCell.appendChild(yahooLink);
+
 
                 row.appendChild(tickerCell);
-
-
                 // ==================================================
                 // 2. PRICE
                 // ==================================================

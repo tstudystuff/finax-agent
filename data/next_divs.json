@@ -1,465 +1,85 @@
 {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "dividends": [
         {
-            "ticker": "ACNB",
-            "price": "$65.05",
+            "ticker": "AMKR",
+            "price": "$47.88",
             "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.42",
-            "company": "ACNB Corporation Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/acnb/dividend-history"
+            "amount": "0.08352",
+            "company": "Amkor Technology, Inc. Common Stock",
+            "payment_date": "9/22/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/amkr/dividend-history"
         },
         {
-            "ticker": "ADI",
-            "price": "$364.93",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "1.1",
-            "company": "Analog Devices, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/adi/dividend-history"
+            "ticker": "FOX",
+            "price": "$61.32",
+            "dividend_frequency": "2 (Semi-Annual)",
+            "amount": "0.29",
+            "company": "Fox Corporation Class B Common Stock",
+            "payment_date": "9/23/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/fox/dividend-history"
         },
         {
-            "ticker": "ATLCP",
-            "price": "$24.18",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.476563",
-            "company": "Atlanticus Holdings Corporation 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/atlcp/dividend-history"
+            "ticker": "FOXA",
+            "price": "$68.42",
+            "dividend_frequency": "2 (Semi-Annual)",
+            "amount": "0.29",
+            "company": "Fox Corporation Class A Common Stock",
+            "payment_date": "9/23/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/foxa/dividend-history"
         },
         {
-            "ticker": "ATLO",
-            "price": "$31.50",
+            "ticker": "ODFL",
+            "price": "$198.63",
             "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.24",
-            "company": "Ames National Corporation Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/atlo/dividend-history"
+            "amount": "0.29",
+            "company": "Old Dominion Freight Line, Inc. Common Stock",
+            "payment_date": "9/16/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/odfl/dividend-history"
         },
         {
-            "ticker": "BPYPM",
-            "price": "$16.91",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.390625",
-            "company": "Brookfield Property Partners L.P. 6.25% Class A Cumulative Redeemable Preferred Units, Series 1",
-            "payment_date": "9/29/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/bpypm/dividend-history"
-        },
-        {
-            "ticker": "BPYPN",
-            "price": "$14.0604",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.359375",
-            "company": "Brookfield Property Partners L.P. 5.750% Class A Cumulative Redeemable Perpetual Preferred Units, Series 3",
-            "payment_date": "9/29/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/bpypn/dividend-history"
-        },
-        {
-            "ticker": "BPYPO",
-            "price": "$15.50",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.3984375",
-            "company": "Brookfield Property Partners L.P. 6.375% Class A Cumulative Redeemable Perpetual Preferred Units, Series 2",
-            "payment_date": "9/29/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/bpypo/dividend-history"
-        },
-        {
-            "ticker": "BPYPP",
-            "price": "$16.3253",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.40625",
-            "company": "Brookfield Property Partners L.P. 6.50% Class A Cumulative Redeemable Perpetual Preferred Units",
-            "payment_date": "9/29/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/bpypp/dividend-history"
-        },
-        {
-            "ticker": "CCNE",
-            "price": "$34.03",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.19",
-            "company": "CNB Financial Corporation Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ccne/dividend-history"
-        },
-        {
-            "ticker": "FFBC",
-            "price": "$32.795",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.26",
-            "company": "First Financial Bancorp. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ffbc/dividend-history"
-        },
-        {
-            "ticker": "FGNXP",
-            "price": "$25.20",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.5",
-            "company": "FG Nexus Inc. 8.00% Cumulative Preferred Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/fgnxp/dividend-history"
-        },
-        {
-            "ticker": "FTAIM",
-            "price": "$27.48",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.59375",
-            "company": "FTAI Aviation Ltd. 9.500% Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred Shares",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ftaim/dividend-history"
-        },
-        {
-            "ticker": "GCMG",
-            "price": "$13.82",
+            "ticker": "PAHC",
+            "price": "$37.67",
             "dividend_frequency": "4 (Quarterly)",
             "amount": "0.12",
-            "company": "GCM Grosvenor Inc. Class A Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/gcmg/dividend-history"
-        },
-        {
-            "ticker": "GTX",
-            "price": "$27.30",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.08",
-            "company": "Garrett Motion Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/gtx/dividend-history"
-        },
-        {
-            "ticker": "HQI",
-            "price": "$16.06",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.06",
-            "company": "HireQuest, Inc. Common Stock (DE)",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/hqi/dividend-history"
-        },
-        {
-            "ticker": "IBKR",
-            "price": "$97.3701",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.0875",
-            "company": "Interactive Brokers Group, Inc. Class A Common Stock",
-            "payment_date": "9/14/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ibkr/dividend-history"
-        },
-        {
-            "ticker": "ITIC",
-            "price": "$307.12",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.46",
-            "company": "Investors Title Company Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/itic/dividend-history"
-        },
-        {
-            "ticker": "LCNB",
-            "price": "$19.345",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.22",
-            "company": "LCNB Corporation Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/lcnb/dividend-history"
-        },
-        {
-            "ticker": "LFVN",
-            "price": "$6.48",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.05",
-            "company": "Lifevantage Corporation Common Stock (Delaware)",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/lfvn/dividend-history"
-        },
-        {
-            "ticker": "LILAP",
-            "price": "$20.98",
-            "dividend_frequency": "Unknown",
-            "amount": "0.5625",
-            "company": "Liberty Latin America Ltd. 9.0% Fixed Rate Cumulative Perpetual Redeemable Series A Preference Shares",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/lilap/dividend-history"
-        },
-        {
-            "ticker": "MCHPP",
-            "price": "$64.96",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.9375",
-            "company": "Microchip Technology Incorporated Depositary Shares Each Representing a 1/20th Interest in a Share of 7.50% Series A Mandatory Convertible Preferred Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/mchpp/dividend-history"
-        },
-        {
-            "ticker": "MCRI",
-            "price": "$124.02",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.3",
-            "company": "Monarch Casino & Resort, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/mcri/dividend-history"
-        },
-        {
-            "ticker": "MFICL",
-            "price": "$25.57",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.5",
-            "company": "MidCap Financial Investment Corporation 8.00% Notes due 2028",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/mficl/dividend-history"
-        },
-        {
-            "ticker": "MGEE",
-            "price": "$78.70",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.5083",
-            "company": "MGE Energy, Inc",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/mgee/dividend-history"
-        },
-        {
-            "ticker": "MVBF",
-            "price": "$30.675",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.17",
-            "company": "MVB Financial Corp. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/mvbf/dividend-history"
-        },
-        {
-            "ticker": "NBTB",
-            "price": "$51.545",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.4",
-            "company": "NBT Bancorp Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/nbtb/dividend-history"
-        },
-        {
-            "ticker": "PANL",
-            "price": "$8.175",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.1",
-            "company": "Pangaea Logistics Solutions Ltd. Common Shares",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/panl/dividend-history"
-        },
-        {
-            "ticker": "POWWP",
-            "price": "$23.906",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.546875",
-            "company": "Outdoor Holding Company 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/powwp/dividend-history"
-        },
-        {
-            "ticker": "PRDO",
-            "price": "$33.62",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.17",
-            "company": "Perdoceo Education Corporation Common Stock",
-            "payment_date": "9/10/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/prdo/dividend-history"
-        },
-        {
-            "ticker": "PTEN",
-            "price": "$12.28",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.1",
-            "company": "Patterson-UTI Energy, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/pten/dividend-history"
-        },
-        {
-            "ticker": "RCKY",
-            "price": "$45.38",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.17",
-            "company": "Rocky Brands, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/rcky/dividend-history"
-        },
-        {
-            "ticker": "SAFT",
-            "price": "$103.79",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.92",
-            "company": "Safety Insurance Group, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/saft/dividend-history"
+            "company": "Phibro Animal Health Corporation Class A Common Stock",
+            "payment_date": "9/23/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/pahc/dividend-history"
         },
         {
             "ticker": "SATA",
-            "price": "$100.0097",
+            "price": "$99.75",
             "dividend_frequency": "Daily",
             "amount": "0.0516",
             "company": "Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",
-            "payment_date": "9/02/2026",
-            "ex_dividend_date": "9/01/2026",
+            "payment_date": "9/03/2026",
+            "ex_dividend_date": "9/02/2026",
             "ticker_url": "https://www.nasdaq.com/market-activity/stocks/sata/dividend-history"
         },
         {
-            "ticker": "SSNC",
-            "price": "$83.75",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.3",
-            "company": "SS&C Technologies Holdings, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ssnc/dividend-history"
-        },
-        {
-            "ticker": "STRRP",
-            "price": "$9.95",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.25",
-            "company": "Star Equity Holdings, Inc. 10% Series A Cumulative Perpetual Preferred Stock",
-            "payment_date": "9/10/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/strrp/dividend-history"
-        },
-        {
-            "ticker": "TCBI",
-            "price": "$98.38",
-            "dividend_frequency": "Unknown",
-            "amount": "0.2",
-            "company": "Texas Capital Bancshares, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/tcbi/dividend-history"
-        },
-        {
-            "ticker": "TCBIO",
-            "price": "$20.7613",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.359375",
-            "company": "Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/tcbio/dividend-history"
-        },
-        {
-            "ticker": "TPGXL",
-            "price": "$22.5001",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.434375",
-            "company": "TPG Operating Group II, L.P. 6.950% Fixed-Rate Junior Subordinated Notes due 2064",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/tpgxl/dividend-history"
-        },
-        {
-            "ticker": "TRMK",
-            "price": "$46.36",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.25",
-            "company": "Trustmark Corporation Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/trmk/dividend-history"
-        },
-        {
-            "ticker": "TW",
-            "price": "$108.92",
+            "ticker": "SHBI",
+            "price": "$23.14",
             "dividend_frequency": "4 (Quarterly)",
             "amount": "0.14",
-            "company": "Tradeweb Markets Inc. Class A Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/tw/dividend-history"
+            "company": "Shore Bancshares Inc Common Stock",
+            "payment_date": "9/16/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/shbi/dividend-history"
         },
         {
-            "ticker": "TXRH",
-            "price": "$199.83",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.75",
-            "company": "Texas Roadhouse, Inc. Common Stock",
-            "payment_date": "9/29/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/txrh/dividend-history"
-        },
-        {
-            "ticker": "UFPI",
-            "price": "$84.96",
-            "dividend_frequency": "Unknown",
-            "amount": "0.36",
-            "company": "UFP Industries, Inc. Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ufpi/dividend-history"
-        },
-        {
-            "ticker": "ULH",
-            "price": "$19.39",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.105",
-            "company": "Universal Logistics Holdings, Inc. Common Stock",
-            "payment_date": "10/01/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ulh/dividend-history"
-        },
-        {
-            "ticker": "VC",
-            "price": "$102.35",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.375",
-            "company": "Visteon Corporation Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/vc/dividend-history"
-        },
-        {
-            "ticker": "WEN",
-            "price": "$8.175",
+            "ticker": "WSC",
+            "price": "$20.90",
             "dividend_frequency": "4 (Quarterly)",
             "amount": "0.07",
-            "company": "Wendy's Company (The) Common Stock",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/wen/dividend-history"
-        },
-        {
-            "ticker": "ZIONP",
-            "price": "$18.115",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.2840474",
-            "company": "Zions Bancorporation, N.A. Depositary Shares (Each representing 1/40th Interest in a Share of Series A Floating-Rate Non-Cumulative Perpetual Preferred Stock)",
-            "payment_date": "9/15/2026",
-            "ex_dividend_date": "9/01/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/zionp/dividend-history"
+            "company": "WillScot Holdings Corporation Class A Common Stock",
+            "payment_date": "9/16/2026",
+            "ex_dividend_date": "9/02/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/wsc/dividend-history"
         }
     ]
 }
