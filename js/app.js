@@ -1,7 +1,7 @@
 // app.js
 import { letterFocus } from "./nav/letter-focus.js";
 
-
+const exDivDateHeader = document.querySelector("#exDivDate-header");
 // ==========================================================
 // KEYBOARD NAVIGATION
 // ==========================================================
@@ -34,7 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
         })
 
         .then(data => {
-
+            console.log(data.date)
+            exDivDateHeader.textContent = data.date || "";
             const tableBody =
                 document.querySelector(
                     "#dividends-table tbody"
@@ -238,7 +239,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const exDividendCell =
                     document.createElement("td");
-
+        
                 exDividendCell.textContent =
                     dividend.ex_dividend_date || "";
 
@@ -248,7 +249,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 // ==================================================
                 // ADD ROW
                 // ==================================================
-
                 tableBody.appendChild(row);
 
             });

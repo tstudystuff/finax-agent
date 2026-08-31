@@ -8,32 +8,35 @@
     <script type="module" src="js/app.js" defer></script>
 </head>
 <body>
-<h1>Finex Agent</h1>
+    <div class="page-wrapper">
+        <h1>Finex Agent</h1>
 
-    <section id="upcoming-dividends">
-        <h2>Upcoming Dividends</h2>
+        <section id="upcoming-dividends">
+            <h2>Upcoming Dividends</h2>
+            <h3>ex-div-date: <span id="exDivDate-header"></span></h3>
 
-        <table id="dividends-table">
-            <thead>
-                <tr>
-                  <thead>
+            <table id="dividends-table">
+                <thead>
                     <tr>
-                        <th data-sort="ticker" tabindex="0">Ticker</th>
-                        <th data-sort="price" tabindex="0">Price</th>
-                        <th data-sort="frequency" tabindex="0">Frequency</th>
-                        <th data-sort="dividend" tabindex="0">Dividend $</th>
-                        <th data-sort="company" tabindex="0">Company Name</th>
-                        <th data-sort="payment-date" tabindex="0">Payment Date</th>
-                        <th data-sort="ex-dividend-date" tabindex="0">Ex-Dividend Date</th>
+                    <thead>
+                        <tr>
+                            <th data-sort="ticker" tabindex="0">Ticker</th>
+                            <th data-sort="price" tabindex="0">Price</th>
+                            <th data-sort="frequency" tabindex="0">Frequency</th>
+                            <th data-sort="dividend" tabindex="0">Dividend $</th>
+                            <th data-sort="company" tabindex="0">Company Name</th>
+                            <th data-sort="payment-date" tabindex="0">Payment Date</th>
+                            <th data-sort="ex-dividend-date" tabindex="0">Ex-Dividend Date</th>
+                        </tr>
+                    </thead>
                     </tr>
-                  </thead>
-                </tr>
-            </thead>
+                </thead>
 
-            <tbody></tbody>
-        </table>
+                <tbody></tbody>
+            </table>
         </section>
     
+    </div>
 </body>
 </html>
 
