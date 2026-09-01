@@ -1,9 +1,10 @@
 Ticker,Share Price,Frequency,Dividend Amount,Company,Payment Date,Ex-Dividend Date,Ticker URL
-AMKR,$47.88,4 (Quarterly),0.08352,"Amkor Technology, Inc. Common Stock",9/22/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/amkr/dividend-history
-FOX,$61.32,2 (Semi-Annual),0.29,Fox Corporation Class B Common Stock,9/23/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/fox/dividend-history
-FOXA,$68.42,2 (Semi-Annual),0.29,Fox Corporation Class A Common Stock,9/23/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/foxa/dividend-history
-ODFL,$198.63,4 (Quarterly),0.29,"Old Dominion Freight Line, Inc. Common Stock",9/16/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/odfl/dividend-history
-PAHC,$37.67,4 (Quarterly),0.12,Phibro Animal Health Corporation Class A Common Stock,9/23/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/pahc/dividend-history
-SATA,$99.75,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/03/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-SHBI,$23.14,4 (Quarterly),0.14,Shore Bancshares Inc Common Stock,9/16/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/shbi/dividend-history
-WSC,$20.90,4 (Quarterly),0.07,WillScot Holdings Corporation Class A Common Stock,9/16/2026,9/02/2026,https://www.nasdaq.com/market-activity/stocks/wsc/dividend-history
+LIN,$489.88,4 (Quarterly),1.6,Linde plc Ordinary Shares,9/17/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/lin/dividend-history
+NTES,$121.78,4 (Quarterly),0.48,"NetEase, Inc. American Depositary Shares",9/18/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/ntes/dividend-history
+PEBK,$43.70,4 (Quarterly),0.21,"Peoples Bancorp of North Carolina, Inc. Common Stock",9/15/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/pebk/dividend-history
+PFG,$110.16,4 (Quarterly),0.84,Principal Financial Group Inc Common Stock,9/25/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/pfg/dividend-history
+QCOM,$167.90,4 (Quarterly),0.92,QUALCOMM Incorporated Common Stock,9/24/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/qcom/dividend-history
+RGP,$4.19,4 (Quarterly),0.07,"Resources Connection, Inc. Common Stock",10/01/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/rgp/dividend-history
+RMBI,$15.79,4 (Quarterly),0.15,"Richmond Mutual Bancorporation, Inc. Common Stock",9/17/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/rmbi/dividend-history
+SATA,$99.9899,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/04/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+UNTY,$58.5797,4 (Quarterly),0.17,"Unity Bancorp, Inc. Common Stock",9/17/2026,9/03/2026,https://www.nasdaq.com/market-activity/stocks/unty/dividend-history

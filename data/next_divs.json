@@ -1,85 +1,95 @@
 {
-    "date": "2026-09-02",
+    "date": "2026-09-03",
     "dividends": [
         {
-            "ticker": "AMKR",
-            "price": "$47.88",
+            "ticker": "LIN",
+            "price": "$489.88",
             "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.08352",
-            "company": "Amkor Technology, Inc. Common Stock",
-            "payment_date": "9/22/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/amkr/dividend-history"
+            "amount": "1.6",
+            "company": "Linde plc Ordinary Shares",
+            "payment_date": "9/17/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/lin/dividend-history"
         },
         {
-            "ticker": "FOX",
-            "price": "$61.32",
-            "dividend_frequency": "2 (Semi-Annual)",
-            "amount": "0.29",
-            "company": "Fox Corporation Class B Common Stock",
-            "payment_date": "9/23/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/fox/dividend-history"
-        },
-        {
-            "ticker": "FOXA",
-            "price": "$68.42",
-            "dividend_frequency": "2 (Semi-Annual)",
-            "amount": "0.29",
-            "company": "Fox Corporation Class A Common Stock",
-            "payment_date": "9/23/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/foxa/dividend-history"
-        },
-        {
-            "ticker": "ODFL",
-            "price": "$198.63",
+            "ticker": "NTES",
+            "price": "$121.78",
             "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.29",
-            "company": "Old Dominion Freight Line, Inc. Common Stock",
-            "payment_date": "9/16/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/odfl/dividend-history"
+            "amount": "0.48",
+            "company": "NetEase, Inc. American Depositary Shares",
+            "payment_date": "9/18/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/ntes/dividend-history"
         },
         {
-            "ticker": "PAHC",
-            "price": "$37.67",
+            "ticker": "PEBK",
+            "price": "$43.70",
             "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.12",
-            "company": "Phibro Animal Health Corporation Class A Common Stock",
-            "payment_date": "9/23/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/pahc/dividend-history"
+            "amount": "0.21",
+            "company": "Peoples Bancorp of North Carolina, Inc. Common Stock",
+            "payment_date": "9/15/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/pebk/dividend-history"
+        },
+        {
+            "ticker": "PFG",
+            "price": "$110.16",
+            "dividend_frequency": "4 (Quarterly)",
+            "amount": "0.84",
+            "company": "Principal Financial Group Inc Common Stock",
+            "payment_date": "9/25/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/pfg/dividend-history"
+        },
+        {
+            "ticker": "QCOM",
+            "price": "$167.90",
+            "dividend_frequency": "4 (Quarterly)",
+            "amount": "0.92",
+            "company": "QUALCOMM Incorporated Common Stock",
+            "payment_date": "9/24/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/qcom/dividend-history"
+        },
+        {
+            "ticker": "RGP",
+            "price": "$4.19",
+            "dividend_frequency": "4 (Quarterly)",
+            "amount": "0.07",
+            "company": "Resources Connection, Inc. Common Stock",
+            "payment_date": "10/01/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/rgp/dividend-history"
+        },
+        {
+            "ticker": "RMBI",
+            "price": "$15.79",
+            "dividend_frequency": "4 (Quarterly)",
+            "amount": "0.15",
+            "company": "Richmond Mutual Bancorporation, Inc. Common Stock",
+            "payment_date": "9/17/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/rmbi/dividend-history"
         },
         {
             "ticker": "SATA",
-            "price": "$99.75",
+            "price": "$99.9899",
             "dividend_frequency": "Daily",
             "amount": "0.0516",
             "company": "Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",
-            "payment_date": "9/03/2026",
-            "ex_dividend_date": "9/02/2026",
+            "payment_date": "9/04/2026",
+            "ex_dividend_date": "9/03/2026",
             "ticker_url": "https://www.nasdaq.com/market-activity/stocks/sata/dividend-history"
         },
         {
-            "ticker": "SHBI",
-            "price": "$23.14",
+            "ticker": "UNTY",
+            "price": "$58.5797",
             "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.14",
-            "company": "Shore Bancshares Inc Common Stock",
-            "payment_date": "9/16/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/shbi/dividend-history"
-        },
-        {
-            "ticker": "WSC",
-            "price": "$20.90",
-            "dividend_frequency": "4 (Quarterly)",
-            "amount": "0.07",
-            "company": "WillScot Holdings Corporation Class A Common Stock",
-            "payment_date": "9/16/2026",
-            "ex_dividend_date": "9/02/2026",
-            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/wsc/dividend-history"
+            "amount": "0.17",
+            "company": "Unity Bancorp, Inc. Common Stock",
+            "payment_date": "9/17/2026",
+            "ex_dividend_date": "9/03/2026",
+            "ticker_url": "https://www.nasdaq.com/market-activity/stocks/unty/dividend-history"
         }
     ]
 }
