@@ -24,7 +24,6 @@ export function initTableSort() {
         // Make headers keyboard-focusable
         header.tabIndex = 0;
 
-        // Accessibility / current sort direction
         header.setAttribute(
             "aria-sort",
             "none"
@@ -112,7 +111,6 @@ function sortColumn(
     }
 
 
-    // Ignore "No dividends" / error rows
     const sortableRows =
         rows.filter(row => {
 
@@ -130,7 +128,7 @@ function sortColumn(
 
 
     // ======================================================
-    // DETERMINE DIRECTION
+    // SORT DIRECTION
     // ======================================================
 
     const currentDirection =
@@ -145,7 +143,7 @@ function sortColumn(
             : "ascending";
 
 
-    // Reset every other header
+    // Reset all other headers
 
     table
         .querySelectorAll("thead th")
@@ -166,29 +164,23 @@ function sortColumn(
 
 
     // ======================================================
-    // DETERMINE COLUMN TYPE
+    // DETERMINE TYPE FROM HEADER
     // ======================================================
 
-    const values =
-        sortableRows.map(row => {
-
-            const cell =
-                row.children[columnIndex];
-
-            return getCellText(cell);
-
-        });
+    const headerText =
+        activeHeader.textContent
+            .trim()
+            .toLowerCase();
 
 
     const columnType =
-        detectColumnType(
-            activeHeader.textContent,
-            values
+        getColumnType(
+            headerText
         );
 
 
     // ======================================================
-    // SORT
+    // SORT ROWS
     // ======================================================
 
     sortableRows.sort(
@@ -202,14 +194,25 @@ function sortColumn(
 
 
             const valueA =
-                getCellText(cellA);
+                getCellValue(
+                    cellA,
+                    headerText
+                );
+
 
             const valueB =
-                getCellText(cellB);
+                getCellValue(
+                    cellB,
+                    headerText
+                );
 
 
             let comparison = 0;
 
+
+            // ==================================================
+            // NUMBER
+            // ==================================================
 
             if (columnType === "number") {
 
@@ -219,6 +222,11 @@ function sortColumn(
 
             }
 
+
+            // ==================================================
+            // DATE
+            // ==================================================
+
             else if (columnType === "date") {
 
                 comparison =
@@ -227,6 +235,11 @@ function sortColumn(
 
             }
 
+
+            // ==================================================
+            // TEXT
+            // ==================================================
+
             else {
 
                 comparison =
@@ -234,29 +247,38 @@ function sortColumn(
                         valueB,
                         undefined,
                         {
-                            numeric: true,
-                            sensitivity: "base"
+                            sensitivity: "base",
+                            numeric: true
                         }
                     );
 
             }
 
 
-            return nextDirection === "ascending"
-                ? comparison
-                : -comparison;
+            if (
+                nextDirection === "descending"
+            ) {
+
+                comparison *= -1;
+
+            }
+
+
+            return comparison;
 
         }
     );
 
 
     // ======================================================
-    // PUT SORTED ROWS BACK INTO TABLE
+    // REINSERT ROWS
     // ======================================================
 
     sortableRows.forEach(row => {
 
-        tbody.appendChild(row);
+        tbody.appendChild(
+            row
+        );
 
     });
 
@@ -264,46 +286,19 @@ function sortColumn(
 
 
 // ==========================================================
-// GET CELL TEXT
+// COLUMN TYPE
 // ==========================================================
 
-function getCellText(cell) {
-
-    if (!cell) {
-        return "";
-    }
-
-
-    return cell.textContent
-        .trim()
-        .replace(/\s+/g, " ");
-
-}
-
-
-// ==========================================================
-// DETECT COLUMN TYPE
-// ==========================================================
-
-function detectColumnType(
-    headerText,
-    values
-) {
-
-    const header =
-        headerText
-            .trim()
-            .toLowerCase();
-
+function getColumnType(headerText) {
 
     // ======================================================
-    // KNOWN NUMERIC COLUMNS
+    // NUMBER COLUMNS
     // ======================================================
 
     if (
-        header.includes("price") ||
-        header.includes("dividend $") ||
-        header.includes("amount")
+        headerText.includes("price") ||
+        headerText.includes("dividend $") ||
+        headerText.includes("amount")
     ) {
 
         return "number";
@@ -316,7 +311,7 @@ function detectColumnType(
     // ======================================================
 
     if (
-        header.includes("date")
+        headerText.includes("date")
     ) {
 
         return "date";
@@ -325,34 +320,66 @@ function detectColumnType(
 
 
     // ======================================================
-    // FALLBACK AUTO-DETECTION
+    // EVERYTHING ELSE IS TEXT
     // ======================================================
 
-    const nonEmptyValues =
-        values.filter(Boolean);
-
-
-    if (nonEmptyValues.length === 0) {
-        return "text";
-    }
-
-
-    const allNumbers =
-        nonEmptyValues.every(value => {
-
-            return Number.isFinite(
-                parseNumber(value)
-            );
-
-        });
-
-
-    if (allNumbers) {
-        return "number";
-    }
-
-
     return "text";
+
+}
+
+
+// ==========================================================
+// GET CELL VALUE
+// ==========================================================
+
+function getCellValue(
+    cell,
+    headerText
+) {
+
+    if (!cell) {
+        return "";
+    }
+
+
+    // ======================================================
+    // TICKER
+    // ======================================================
+    //
+    // Your ticker cell contains:
+    //
+    // AAPL
+    // Yahoo
+    //
+    // We only want the FIRST link's text,
+    // not "AAPL Yahoo".
+    //
+
+    if (
+        headerText.includes("ticker")
+    ) {
+
+        const tickerLink =
+            cell.querySelector("a");
+
+        if (tickerLink) {
+
+            return tickerLink.textContent
+                .trim()
+                .toUpperCase();
+
+        }
+
+    }
+
+
+    // ======================================================
+    // NORMAL CELL
+    // ======================================================
+
+    return cell.textContent
+        .trim()
+        .replace(/\s+/g, " ");
 
 }
 
@@ -363,15 +390,11 @@ function detectColumnType(
 
 function parseNumber(value) {
 
-    if (!value) {
-        return 0;
-    }
-
-
     const cleaned =
         String(value)
-            .replace(/[$,%]/g, "")
+            .replace(/\$/g, "")
             .replace(/,/g, "")
+            .replace(/%/g, "")
             .trim();
 
 
@@ -379,9 +402,16 @@ function parseNumber(value) {
         Number(cleaned);
 
 
-    return Number.isFinite(number)
-        ? number
-        : 0;
+    if (
+        Number.isNaN(number)
+    ) {
+
+        return 0;
+
+    }
+
+
+    return number;
 
 }
 
@@ -401,8 +431,15 @@ function parseDate(value) {
         Date.parse(value);
 
 
-    return Number.isNaN(timestamp)
-        ? 0
-        : timestamp;
+    if (
+        Number.isNaN(timestamp)
+    ) {
+
+        return 0;
+
+    }
+
+
+    return timestamp;
 
 }
