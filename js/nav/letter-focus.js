@@ -38,7 +38,7 @@ export function letterFocus({ e }) {
     // ======================================================
     const tickerLinks = [
         ...document.querySelectorAll(
-            "#dividends-table tbody a"
+            "#dividends-table tbody a,[data-nav-target]"
         )
     ];
 
