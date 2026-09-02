@@ -1,36 +1,58 @@
 Ticker,Share Price,Frequency,Dividend Amount,Company,Payment Date,Ex-Dividend Date,Ticker URL
-AAON,$76.00,Unknown,0.1,"AAON, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/aaon/dividend-history
+AAON,$75.38,Unknown,0.1,"AAON, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/aaon/dividend-history
 CASS,$55.20,4 (Quarterly),0.32,"Cass Information Systems, Inc Common Stock",9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/cass/dividend-history
 CBSH,$57.14,4 (Quarterly),0.275,"Commerce Bancshares, Inc. Common Stock",9/22/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/cbsh/dividend-history
-CHRW,$147.88,4 (Quarterly),0.63,"C.H. Robinson Worldwide, Inc. Common Stock",10/02/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/chrw/dividend-history
-CURI,$2.80,4 (Quarterly),0.085,CuriosityStream Inc. Class A Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/curi/dividend-history
+CHRW,$148.31,4 (Quarterly),0.63,"C.H. Robinson Worldwide, Inc. Common Stock",10/02/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/chrw/dividend-history
+CURI,$2.8105,4 (Quarterly),0.085,CuriosityStream Inc. Class A Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/curi/dividend-history
 EXC,$43.83,4 (Quarterly),0.42,Exelon Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/exc/dividend-history
 EXPO,$70.30,4 (Quarterly),0.31,"Exponent, Inc. Common Stock",9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/expo/dividend-history
-FRME,$41.348,4 (Quarterly),0.37,First Merchants Corporation Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/frme/dividend-history
-GOOG,$334.4137,4 (Quarterly),0.22,Alphabet Inc. Class C Capital Stock,9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/goog/dividend-history
-GOOGL,$337.60,4 (Quarterly),0.22,Alphabet Inc. Class A Common Stock,9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/googl/dividend-history
-HWC,$73.24,4 (Quarterly),0.5,Hancock Whitney Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/hwc/dividend-history
-ICFI,$88.81,Unknown,0.14,"ICF International, Inc. Common Stock",10/09/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/icfi/dividend-history
+FRME,$40.8495,4 (Quarterly),0.37,First Merchants Corporation Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/frme/dividend-history
+GOOG,$333.0389,4 (Quarterly),0.22,Alphabet Inc. Class C Capital Stock,9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/goog/dividend-history
+GOOGL,$336.4495,4 (Quarterly),0.22,Alphabet Inc. Class A Common Stock,9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/googl/dividend-history
+HWC,$73.60,4 (Quarterly),0.5,Hancock Whitney Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/hwc/dividend-history
+ICFI,$89.00,Unknown,0.14,"ICF International, Inc. Common Stock",10/09/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/icfi/dividend-history
 III,$5.06,Unknown,0.045,Information Services Group Inc. Common Stock,9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/iii/dividend-history
-JKHY,$168.89,4 (Quarterly),0.61,"Jack Henry & Associates, Inc. Common Stock",9/23/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/jkhy/dividend-history
-KHC,$25.88,4 (Quarterly),0.4,The Kraft Heinz Company Common Stock,9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/khc/dividend-history
-KMB,$107.60,4 (Quarterly),1.28,Kimberly-Clark Corporation Common Stock,10/02/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/kmb/dividend-history
-MBWM,$59.14,4 (Quarterly),0.4,Mercantile Bank Corporation Common Stock,9/16/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/mbwm/dividend-history
-NAVI,$9.2492,4 (Quarterly),0.16,Navient Corporation Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/navi/dividend-history
+JKHY,$168.20,4 (Quarterly),0.61,"Jack Henry & Associates, Inc. Common Stock",9/23/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/jkhy/dividend-history
+KHC,$26.08,4 (Quarterly),0.4,The Kraft Heinz Company Common Stock,9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/khc/dividend-history
+KMB,$107.8549,4 (Quarterly),1.28,Kimberly-Clark Corporation Common Stock,10/02/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/kmb/dividend-history
+MBWM,$59.9392,4 (Quarterly),0.4,Mercantile Bank Corporation Common Stock,9/16/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/mbwm/dividend-history
+NAVI,$9.28,4 (Quarterly),0.16,Navient Corporation Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/navi/dividend-history
 NTRS,$182.68,4 (Quarterly),0.88,Northern Trust Corporation Common Stock,10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ntrs/dividend-history
 OBT,$37.50,4 (Quarterly),0.18,"Orange County Bancorp, Inc. Common Stock",9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/obt/dividend-history
-ONB,$25.11,4 (Quarterly),0.145,Old National Bancorp Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/onb/dividend-history
-OTEX,$24.00,4 (Quarterly),0.28,Open Text Corporation Common Shares,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/otex/dividend-history
-PEP,$140.15,4 (Quarterly),1.48,"PepsiCo, Inc. Common Stock",9/30/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/pep/dividend-history
-PYPL,$52.43,4 (Quarterly),0.14,"PayPal Holdings, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/pypl/dividend-history
-RECT,$1.40,Unknown,0.1,Rectitude Holdings Ltd Ordinary Shares,9/21/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/rect/dividend-history
+ONB,$25.31,4 (Quarterly),0.145,Old National Bancorp Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/onb/dividend-history
+OTEX,$23.64,4 (Quarterly),0.28,Open Text Corporation Common Shares,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/otex/dividend-history
+PEP,$140.37,4 (Quarterly),1.48,"PepsiCo, Inc. Common Stock",9/30/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/pep/dividend-history
+PYPL,$52.57,4 (Quarterly),0.14,"PayPal Holdings, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/pypl/dividend-history
+RECT,$1.39,Unknown,0.1,Rectitude Holdings Ltd Ordinary Shares,9/21/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/rect/dividend-history
 SATA,$99.90,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/08/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
 SLM,$25.77,4 (Quarterly),0.13,SLM Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/slm/dividend-history
 SLMBP,$74.83,4 (Quarterly),1.4393042,"SLM Corporation Floating Rate Non-Cumulative Preferred Stock, Series B",9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/slmbp/dividend-history
 STRA,$83.32,4 (Quarterly),0.6,"Strategic Education, Inc. Common Stock",9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/stra/dividend-history
-TER,$332.70,4 (Quarterly),0.13,"Teradyne, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ter/dividend-history
+TER,$333.79,4 (Quarterly),0.13,"Teradyne, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ter/dividend-history
 TILE,$37.00,Unknown,0.03,"Interface, Inc. Common Stock",9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/tile/dividend-history
 TRST,$56.6832,4 (Quarterly),0.4,TrustCo Bank Corp NY Common Stock,10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/trst/dividend-history
 UFCS,$54.15,4 (Quarterly),0.2,"United Fire Group, Inc. Common Stock",9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ufcs/dividend-history
-WSBC,$39.8697,4 (Quarterly),0.38,"WesBanco, Inc. Common Stock",10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/wsbc/dividend-history
+WSBC,$39.48,4 (Quarterly),0.38,"WesBanco, Inc. Common Stock",10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/wsbc/dividend-history
 WSBCO,$25.86,4 (Quarterly),0.4609,"WesBanco, Inc. Depositary Shares each representing 1/40th interest in a share of 7.375% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series B",10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/wsbco/dividend-history
+CCBG,$50.63,4 (Quarterly),0.27,Capital City Bank Group Common Stock,9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/ccbg/dividend-history
+CUVL,$6.22,Unknown,0.03582,Clinuvel Pharmaceuticals Limited American Depositary Shares,9/28/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/cuvl/dividend-history
+EBC,$21.52,4 (Quarterly),0.15,"Eastern Bankshares, Inc. Common Stock",9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/ebc/dividend-history
+HTHT,$46.8228,Unknown,0.87,H World Group Limited American Depositary Shares,9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/htht/dividend-history
+MFIC,$9.66,4 (Quarterly),0.31,MidCap Financial Investment Corporation Common Stock,9/24/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/mfic/dividend-history
+MZTI,$111.83,4 (Quarterly),1,The Marzetti Company Common Stock,9/30/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/mzti/dividend-history
+ROST,$229.24,4 (Quarterly),0.445,"Ross Stores, Inc. Common Stock",9/30/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/rost/dividend-history
+RRBI,$100.15,4 (Quarterly),0.25,"Red River Bancshares, Inc. Common Stock",9/17/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/rrbi/dividend-history
+SATA,$99.90,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/09/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+TCBS,$17.4628,4 (Quarterly),0.06,"Texas Community Bancshares, Inc. Common Stock",9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/tcbs/dividend-history
+WDC,$444.57,4 (Quarterly),0.15,Western Digital Corporation Common Stock,9/17/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/wdc/dividend-history
+AVT,$89.45,4 (Quarterly),0.37,"Avnet, Inc. Common Stock",9/23/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/avt/dividend-history
+CME,$285.525,4 (Quarterly),1.3,CME Group Inc. Class A Common Stock,9/25/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/cme/dividend-history
+EHLD,$10.50,4 (Quarterly),0.14,Euroholdings Ltd. Common Stock,9/16/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/ehld/dividend-history
+ESEA,$76.20,4 (Quarterly),0.8,Euroseas Ltd. Common Stock (Marshall Islands),9/16/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/esea/dividend-history
+NWS,$34.25,2 (Semi-Annual),0.1,News Corporation Class B Common Stock,10/07/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/nws/dividend-history
+NWSA,$30.45,2 (Semi-Annual),0.1,News Corporation Class A Common Stock,10/07/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/nwsa/dividend-history
+QFIN,$8.50,Unknown,0.46,"Qfin Holdings, Inc. American Depositary Shares",10/01/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/qfin/dividend-history
+RUSHA,$48.42,Unknown,0.14,"Rush Enterprises, Inc. Common Stock Cl A",9/24/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/rusha/dividend-history
+RUSHB,$50.858,Unknown,0.14,"Rush Enterprises, Inc. Class B",9/24/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/rushb/dividend-history
+SATA,$99.90,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/10/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+TFSL,$17.27,4 (Quarterly),0.3175,TFS Financial Corporation Common Stock,9/23/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/tfsl/dividend-history
