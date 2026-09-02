@@ -3,75 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Finex</title>
-
     <link rel="stylesheet" href="css/style.css">
-
     <script
         type="module"
         src="js/app.js"
         defer
     ></script>
 </head>
-
 <body>
-
     <div class="page-wrapper">
-
         <h1>Finex Agent</h1>
-
         <section id="upcoming-dividends">
-
             <h2>Upcoming Dividends</h2>
-
-
             <h3>
                 <span class="r">Fix todays date</span>
                 Today's date:
                 <span id="today-date-header"></span>
             </h3>
-
-
             <div class="dividend-date-nav">
-
-                <button
-                    tabindex="0"
-                    data-nav-target="previous-dividend-day"
-                    id="previous-dividend-day"
-                    type="button"
-                    aria-label="Previous dividend date"
-                    hidden
-                >
-                    &larr;
-                </button>
-
-
-                <h3>
+                    <h3>
                     Ex-div-date:
                     <span id="exDivDate-header"></span>
                 </h3>
-
-
-                <button
-                    tabindex="0"
-                    data-nav-target="next-dividend-day"
-                    id="next-dividend-day"
-                    type="button"
-                    aria-label="Next dividend date"
-                >
-                    &rarr;
-                </button>
-
+                <div class="date-btns-container">
+                    <button
+                        tabindex="0"
+                        data-nav-target="previous-dividend-day"
+                        id="previous-dividend-day"
+                        type="button"
+                        aria-label="Previous dividend date"
+                        hidden
+                        >
+                        &larr;
+                    </button>
+                    <button
+                        tabindex="0"
+                        data-nav-target="next-dividend-day"
+                        id="next-dividend-day"
+                        type="button"
+                        aria-label="Next dividend date"
+                        >
+                        &rarr;
+                    </button>
+                </div>
             </div>
-
-
             <table id="dividends-table">
-
                 <thead>
-
                     <tr>
-
                         <th
                             data-nav-target="ticker"
                             data-sort="ticker"
@@ -79,7 +58,6 @@
                         >
                             Ticker
                         </th>
-
                         <th
                             data-nav-target="price"
                             data-sort="price"
@@ -87,7 +65,6 @@
                         >
                             Price
                         </th>
-
                         <th
                             data-nav-target="frequency"
                             data-sort="frequency"
@@ -95,7 +72,6 @@
                         >
                             Frequency
                         </th>
-
                         <th
                             data-nav-target="dividend"
                             data-sort="dividend"
@@ -103,7 +79,6 @@
                         >
                             Dividend $
                         </th>
-
                         <th
                             data-nav-target="company"
                             data-sort="company"
@@ -111,7 +86,6 @@
                         >
                             Company Name
                         </th>
-
                         <th
                             data-nav-target="payment-date"
                             data-sort="payment-date"
@@ -119,7 +93,6 @@
                         >
                             Payment Date
                         </th>
-
                         <th
                             data-nav-target="ex-dividend-date"
                             data-sort="ex-dividend-date"
@@ -127,18 +100,11 @@
                         >
                             Ex-Dividend Date
                         </th>
-
                     </tr>
-
                 </thead>
-
                 <tbody></tbody>
-
             </table>
-
         </section>
-
     </div>
-
 </body>
 </html>
