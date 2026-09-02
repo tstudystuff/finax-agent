@@ -1,5 +1,7 @@
-@import url('utilities/colors.css');    
-@import url('utilities/sizing.css');    
+@import url('utilities/colors.css');
+@import url('utilities/sizing.css');
+
+
 * {
     box-sizing: border-box;
 }
@@ -12,7 +14,9 @@
 body {
     margin: 0;
     padding: 16px;
+
     font-family: Arial, sans-serif;
+
     background: #f5f5f5;
     color: #222;
 }
@@ -40,6 +44,7 @@ h2 {
 #upcoming-dividends {
     width: 100%;
     max-width: 100%;
+
     overflow-x: auto;
     overflow-y: visible;
 }
@@ -50,11 +55,15 @@ h2 {
    ========================================================== */
 
 #dividends-table {
-    width: auto;
+    width: 100%;
     min-width: 100%;
+
     border-collapse: collapse;
+
     background: #fff;
+
     font-size: 14px;
+
     table-layout: auto;
 }
 
@@ -66,14 +75,13 @@ h2 {
 #dividends-table th,
 #dividends-table td {
     padding: 10px 12px;
+
     border: 1px solid #ddd;
+
     text-align: left;
+    vertical-align: top;
 
-    /* NEVER wrap table content */
     white-space: nowrap;
-
-    /* Never force cells to become tiny */
-    width: auto;
 }
 
 
@@ -83,26 +91,60 @@ h2 {
 
 #dividends-table th {
     background: #e9e9e9;
+
     font-weight: bold;
 
-    /* Headers must stay on ONE LINE */
     white-space: nowrap;
+
     word-break: keep-all;
     overflow-wrap: normal;
+
+    cursor: pointer;
 }
 
 
 /* ==========================================================
-   EX-DIVIDEND DATE HEADER
+   COMPANY NAME
    ========================================================== */
 
-/* Your Ex-Dividend Date is currently the final header */
-#dividends-table th:last-child {
-    white-space: nowrap !important;
-    word-break: keep-all !important;
-    overflow-wrap: normal !important;
+/*
+    Column 5 = Company Name
+
+    Never allow the company-name column to become
+    wider than 40% of the viewport.
+*/
+
+#dividends-table th:nth-child(5),
+#dividends-table td:nth-child(5) {
+    width: auto;
+    max-width: 40vw;
+
+    white-space: normal;
+
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+
+/* ==========================================================
+   PAYMENT DATE
+   ========================================================== */
+
+#dividends-table th:nth-child(6),
+#dividends-table td:nth-child(6) {
+    white-space: nowrap;
+}
+
+
+/* ==========================================================
+   EX-DIVIDEND DATE
+   ========================================================== */
+
+#dividends-table th:nth-child(7),
+#dividends-table td:nth-child(7) {
+    white-space: nowrap;
+
     min-width: 145px;
-    width: 145px;
 }
 
 
@@ -127,37 +169,157 @@ h2 {
 
 
 /* ==========================================================
-   MOBILE
+   SMALL WINDOW
    ========================================================== */
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 
     body {
         padding: 10px;
     }
 
+
     h1 {
         font-size: 24px;
     }
+
 
     h2 {
         font-size: 20px;
     }
 
+
+    /* ======================================================
+       TABLE
+       ====================================================== */
+
     #dividends-table {
+        width: 100%;
+        min-width: 0;
+
         font-size: 13px;
-        min-width: max-content;
     }
+
+
+    /* ======================================================
+       TURN EACH ROW INTO A GRID
+       ====================================================== */
+
+    #dividends-table thead tr,
+    #dividends-table tbody tr {
+
+        display: grid;
+
+        grid-template-columns:
+            auto
+            auto
+            auto
+            auto
+            minmax(100px, 1fr);
+
+        width: 100%;
+    }
+
 
     #dividends-table th,
     #dividends-table td {
-        padding: 8px 10px;
+        min-width: 0;
+
+        padding: 8px;
+
         white-space: nowrap;
     }
 
-    #dividends-table th:last-child {
-        min-width: 145px;
-        width: 145px;
-        white-space: nowrap !important;
+
+    /* ======================================================
+       FIRST ROW:
+       
+       Ticker
+       Price
+       Frequency
+       Dividend
+       Company
+       ====================================================== */
+
+    #dividends-table th:nth-child(1),
+    #dividends-table td:nth-child(1) {
+        grid-column: 1;
     }
+
+
+    #dividends-table th:nth-child(2),
+    #dividends-table td:nth-child(2) {
+        grid-column: 2;
+    }
+
+
+    #dividends-table th:nth-child(3),
+    #dividends-table td:nth-child(3) {
+        grid-column: 3;
+    }
+
+
+    #dividends-table th:nth-child(4),
+    #dividends-table td:nth-child(4) {
+        grid-column: 4;
+    }
+
+
+    /* ======================================================
+       COMPANY NAME
+       ====================================================== */
+
+    #dividends-table th:nth-child(5),
+    #dividends-table td:nth-child(5) {
+
+        grid-column: 5;
+
+        width: auto;
+        max-width: 40vw;
+
+        white-space: normal;
+
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+
+    #dividends-table th:nth-child(6),
+    #dividends-table td:nth-child(6),
+    #dividends-table th:nth-child(7),
+    #dividends-table td:nth-child(7) {
+        flex-basis: 20%;
+        max-width: fit-content;
+
+    }
+    /* ======================================================
+       SECOND ROW — PAYMENT DATE
+       ====================================================== */
+
+    #dividends-table th:nth-child(6),
+    #dividends-table td:nth-child(6) {
+
+        grid-column: 1 / 4;
+
+        width: auto;
+
+        white-space: nowrap;
+    }
+
+
+    /* ======================================================
+       SECOND ROW — EX-DIVIDEND DATE
+       ====================================================== */
+
+    #dividends-table th:nth-child(7),
+    #dividends-table td:nth-child(7) {
+
+        grid-column: 4 / 6;
+
+        width: auto;
+        min-width: 0;
+
+        white-space: nowrap;
+    }
+
 }

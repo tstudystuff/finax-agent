@@ -1,96 +1,163 @@
+@import url('utilities/colors.css');    
+@import url('utilities/sizing.css');    
+* {
+    box-sizing: border-box;
+}
+
+
+/* ==========================================================
+   BODY
+   ========================================================== */
+
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
 }
 
-#finex-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+
+/* ==========================================================
+   HEADINGS
+   ========================================================== */
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 28px;
 }
 
-#finex-header h1 {
-    margin: 0;
-    font-size: 2rem;
+h2 {
+    margin: 0 0 12px;
+    font-size: 22px;
 }
+
+
+/* ==========================================================
+   TABLE CONTAINER
+   ========================================================== */
 
 #upcoming-dividends {
-    margin: 2rem;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#upcoming-dividends h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-}
-
-dividend-table {
     width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+
+/* ==========================================================
+   TABLE
+   ========================================================== */
+
+#dividends-table {
+    width: auto;
+    min-width: 100%;
     border-collapse: collapse;
-    margin-top: 1rem;
+    background: #fff;
+    font-size: 14px;
+    table-layout: auto;
 }
 
-dividend-table th, dividend-table td {
-    padding: 1rem;
+
+/* ==========================================================
+   TABLE CELLS
+   ========================================================== */
+
+#dividends-table th,
+#dividends-table td {
+    padding: 10px 12px;
     border: 1px solid #ddd;
-}
-
-dividend-table th {
-    background-color: #f2f2f2;
     text-align: left;
+
+    /* NEVER wrap table content */
+    white-space: nowrap;
+
+    /* Never force cells to become tiny */
+    width: auto;
 }
 
-dividend-table td {
-    text-align: right;
+
+/* ==========================================================
+   TABLE HEADERS
+   ========================================================== */
+
+#dividends-table th {
+    background: #e9e9e9;
+    font-weight: bold;
+
+    /* Headers must stay on ONE LINE */
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
 }
 
-dividend-table a {
+
+/* ==========================================================
+   EX-DIVIDEND DATE HEADER
+   ========================================================== */
+
+/* Your Ex-Dividend Date is currently the final header */
+#dividends-table th:last-child {
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+    min-width: 145px;
+    width: 145px;
+}
+
+
+/* ==========================================================
+   LINKS
+   ========================================================== */
+
+#dividends-table a {
     text-decoration: none;
-    color: #007bff;
+    font-weight: bold;
 }
 
-dividend-table a:hover {
-    text-decoration: underline;
+
+/* ==========================================================
+   YAHOO LINK
+   ========================================================== */
+
+#dividends-table .yahoo-link {
+    font-size: 11px;
+    font-weight: normal;
 }
 
-@media (max-width: 768px) {
-    #upcoming-dividends {
-        padding: 0.5rem;
+
+/* ==========================================================
+   MOBILE
+   ========================================================== */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
     }
 
-    dividend-table {
-        display: block;
-        width: auto;
+    h1 {
+        font-size: 24px;
     }
 
-    dividend-table thead {
-        display: none;
+    h2 {
+        font-size: 20px;
     }
 
-    dividend-table tbody tr {
-        display: block;
-        border-bottom: 1px solid #ddd;
+    #dividends-table {
+        font-size: 13px;
+        min-width: max-content;
     }
 
-    dividend-table tbody td {
-        border: none;
-        border-bottom: 1px solid #ddd;
-        position: relative;
-        padding-left: 50%;
+    #dividends-table th,
+    #dividends-table td {
+        padding: 8px 10px;
+        white-space: nowrap;
     }
 
-    dividend-table tbody td:before {
-        content: attr(data-label);
-        position: absolute;
-        left: 6px;
-        font-weight: bold;
+    #dividends-table th:last-child {
+        min-width: 145px;
+        width: 145px;
+        white-space: nowrap !important;
     }
 }
-
