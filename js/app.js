@@ -1,8 +1,7 @@
 // app.js
 
 import { letterFocus } from "./nav/letter-focus.js";
-
-
+import {initTableSort} from "./ui/table-sort.js";
 // ==========================================================
 // ELEMENTS
 // ==========================================================
@@ -30,7 +29,10 @@ const tableBody =
 let dividendDays = [];
 
 let currentDividendDayIndex = 0;
-
+function initMain(){
+    initTableSort();
+    initDividendPage();
+}
 
 // ==========================================================
 // KEYBOARD NAVIGATION
@@ -658,5 +660,8 @@ renderDividendDay();
 // ==========================================================
 // START
 // ==========================================================
+// ==========================================================
+// START
+// ==========================================================
 
-initDividendPage();
+initMain()
