@@ -1,18 +1,27 @@
-// letter-focus.js
+// js/nav/letter-focus.js
 
 let lastLetterPressed = null;
+
+
 // ==========================================================
 // LETTER FOCUS
 // ==========================================================
+
 export function letterFocus({ e }) {
+
     if (!e || !e.key) {
         return;
     }
+
+
     // ======================================================
     // IGNORE INPUTS / TEXTAREAS
     // ======================================================
+
     const tag =
         e.target.tagName;
+
+
     if (
         tag === "INPUT" ||
         tag === "TEXTAREA" ||
@@ -20,25 +29,79 @@ export function letterFocus({ e }) {
     ) {
         return;
     }
+
+
     // ======================================================
     // IGNORE MODIFIERS
     // ======================================================
-    if (e.metaKey || e.ctrlKey || e.altKey) {
+
+    if (
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey
+    ) {
         return;
     }
+
+
     // ======================================================
     // GET KEY
     // ======================================================
-    const key = e.key.toLowerCase();
-    if ( key.length !== 1 || !/^[a-z0-9]$/.test(key)) {
+
+    const key =
+        e.key.toLowerCase();
+
+
+    if (
+        key.length !== 1 ||
+        !/^[a-z0-9]$/.test(key)
+    ) {
         return;
     }
+
+
+    // ======================================================
+    // FIND DATA-NAV-TARGET ELEMENTS
+    // ======================================================
+
+    const navTargets = [
+        ...document.querySelectorAll(
+            "[data-nav-target]"
+        )
+    ];
+
+
+    // ======================================================
+    // MATCH DATA-NAV-TARGET BY FIRST CHARACTER
+    // ======================================================
+
+    const matchingNavTargets =
+        navTargets.filter(element => {
+
+            const navValue =
+                element
+                    .getAttribute("data-nav-target")
+                    ?.trim()
+                    .toLowerCase();
+
+
+            if (!navValue) {
+                return false;
+            }
+
+
+            return navValue.startsWith(key);
+
+        });
+
+
     // ======================================================
     // FIND TICKER LINKS
     // ======================================================
+
     const tickerLinks = [
         ...document.querySelectorAll(
-            "#dividends-table tbody a"
+            "#dividends-table tbody td:first-child > a:first-child"
         )
     ];
 
@@ -47,7 +110,7 @@ export function letterFocus({ e }) {
     // FIND MATCHING TICKERS
     // ======================================================
 
-    const matching =
+    const matchingTickers =
         tickerLinks.filter(link => {
 
             const ticker =
@@ -55,23 +118,51 @@ export function letterFocus({ e }) {
                     .trim()
                     .toLowerCase();
 
+
             return ticker.startsWith(key);
 
         });
 
 
     // ======================================================
+    // COMBINE MATCHES
+    // ======================================================
+    //
+    // data-nav-target elements come first.
+    //
+    // Then ticker links.
+    //
+
+    const matching = [
+        ...matchingNavTargets,
+        ...matchingTickers
+    ];
+
+
+    // ======================================================
+    // REMOVE DUPLICATES
+    // ======================================================
+
+    const uniqueMatching =
+        [...new Set(matching)];
+
+
+    // ======================================================
     // NOTHING MATCHED
     // ======================================================
 
-    if (matching.length === 0) {
+    if (
+        uniqueMatching.length === 0
+    ) {
 
         console.log(
-            `No ticker starts with "${key}"`
+            `No navigation target starts with "${key}"`
         );
 
-        return;
+        lastLetterPressed =
+            key;
 
+        return;
     }
 
 
@@ -82,8 +173,11 @@ export function letterFocus({ e }) {
     const activeEl =
         document.activeElement;
 
+
     const activeIndex =
-        matching.indexOf(activeEl);
+        uniqueMatching.indexOf(
+            activeEl
+        );
 
 
     // ======================================================
@@ -93,27 +187,40 @@ export function letterFocus({ e }) {
     let newIndex;
 
 
-    // New letter
-    if (key !== lastLetterPressed) {
+    // ======================================================
+    // NEW LETTER
+    // ======================================================
+
+    if (
+        key !== lastLetterPressed
+    ) {
 
         newIndex =
             e.shiftKey
-                ? matching.length - 1
+                ? uniqueMatching.length - 1
                 : 0;
 
     }
 
-    // Same letter
+
+    // ======================================================
+    // SAME LETTER
+    // ======================================================
+
     else {
 
-        if (activeIndex === -1) {
+        if (
+            activeIndex === -1
+        ) {
 
             newIndex =
                 e.shiftKey
-                    ? matching.length - 1
+                    ? uniqueMatching.length - 1
                     : 0;
 
-        } else {
+        }
+
+        else {
 
             newIndex =
                 e.shiftKey
@@ -121,13 +228,13 @@ export function letterFocus({ e }) {
                     ? (
                         activeIndex -
                         1 +
-                        matching.length
-                    ) % matching.length
+                        uniqueMatching.length
+                    ) % uniqueMatching.length
 
                     : (
                         activeIndex +
                         1
-                    ) % matching.length;
+                    ) % uniqueMatching.length;
 
         }
 
@@ -139,14 +246,33 @@ export function letterFocus({ e }) {
     // ======================================================
 
     const target =
-        matching[newIndex];
+        uniqueMatching[
+            newIndex
+        ];
+
 
     if (!target) {
         return;
     }
 
 
+    // ======================================================
+    // MAKE NON-FOCUSABLE ELEMENTS FOCUSABLE
+    // ======================================================
+
+    if (
+        !isNaturallyFocusable(target) &&
+        !target.hasAttribute("tabindex")
+    ) {
+
+        target.tabIndex =
+            -1;
+
+    }
+
+
     target.focus();
+
 
     lastLetterPressed =
         key;
@@ -157,8 +283,57 @@ export function letterFocus({ e }) {
     // ======================================================
 
     console.log(
-        "Focused ticker:",
-        target.textContent
+        "Letter navigation:",
+        {
+            key,
+            target:
+                target.getAttribute(
+                    "data-nav-target"
+                ) ||
+                target.textContent.trim()
+        }
     );
+
+}
+
+
+// ==========================================================
+// NATURALLY FOCUSABLE ELEMENT
+// ==========================================================
+
+function isNaturallyFocusable(
+    element
+) {
+
+    const tag =
+        element.tagName;
+
+
+    if (
+        tag === "BUTTON" ||
+        tag === "SELECT" ||
+        tag === "TEXTAREA"
+    ) {
+        return true;
+    }
+
+
+    if (
+        tag === "A" &&
+        element.hasAttribute("href")
+    ) {
+        return true;
+    }
+
+
+    if (
+        tag === "INPUT" &&
+        element.type !== "hidden"
+    ) {
+        return true;
+    }
+
+
+    return false;
 
 }
