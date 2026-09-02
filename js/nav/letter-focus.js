@@ -72,7 +72,7 @@ export function letterFocus({ e }) {
 
 
     // ======================================================
-    // MATCH DATA-NAV-TARGET BY FIRST CHARACTER
+    // MATCH DATA-NAV-TARGET BY FIRST LETTER
     // ======================================================
 
     const matchingNavTargets =
@@ -80,7 +80,9 @@ export function letterFocus({ e }) {
 
             const navValue =
                 element
-                    .getAttribute("data-nav-target")
+                    .getAttribute(
+                        "data-nav-target"
+                    )
                     ?.trim()
                     .toLowerCase();
 
@@ -90,7 +92,23 @@ export function letterFocus({ e }) {
             }
 
 
-            return navValue.startsWith(key);
+            // Must begin with pressed key
+            if (
+                !navValue.startsWith(key)
+            ) {
+                return false;
+            }
+
+
+            // Ignore elements that cannot currently be used
+            if (
+                !isAvailableTarget(element)
+            ) {
+                return false;
+            }
+
+
+            return true;
 
         });
 
@@ -113,6 +131,13 @@ export function letterFocus({ e }) {
     const matchingTickers =
         tickerLinks.filter(link => {
 
+            if (
+                !isAvailableTarget(link)
+            ) {
+                return false;
+            }
+
+
             const ticker =
                 link.textContent
                     .trim()
@@ -127,11 +152,6 @@ export function letterFocus({ e }) {
     // ======================================================
     // COMBINE MATCHES
     // ======================================================
-    //
-    // data-nav-target elements come first.
-    //
-    // Then ticker links.
-    //
 
     const matching = [
         ...matchingNavTargets,
@@ -159,8 +179,7 @@ export function letterFocus({ e }) {
             `No navigation target starts with "${key}"`
         );
 
-        lastLetterPressed =
-            key;
+        lastLetterPressed = null;
 
         return;
     }
@@ -170,13 +189,13 @@ export function letterFocus({ e }) {
     // CURRENT FOCUS
     // ======================================================
 
-    const activeEl =
+    const activeElement =
         document.activeElement;
 
 
     const activeIndex =
         uniqueMatching.indexOf(
-            activeEl
+            activeElement
         );
 
 
@@ -184,7 +203,7 @@ export function letterFocus({ e }) {
     // DETERMINE NEXT TARGET
     // ======================================================
 
-    let newIndex;
+    let newIndex = 0;
 
 
     // ======================================================
@@ -209,6 +228,7 @@ export function letterFocus({ e }) {
 
     else {
 
+        // Current focus isn't one of the matches
         if (
             activeIndex === -1
         ) {
@@ -220,21 +240,30 @@ export function letterFocus({ e }) {
 
         }
 
+        // Cycle backward
+        else if (
+            e.shiftKey
+        ) {
+
+            newIndex =
+                (
+                    activeIndex -
+                    1 +
+                    uniqueMatching.length
+                ) %
+                uniqueMatching.length;
+
+        }
+
+        // Cycle forward
         else {
 
             newIndex =
-                e.shiftKey
-
-                    ? (
-                        activeIndex -
-                        1 +
-                        uniqueMatching.length
-                    ) % uniqueMatching.length
-
-                    : (
-                        activeIndex +
-                        1
-                    ) % uniqueMatching.length;
+                (
+                    activeIndex +
+                    1
+                ) %
+                uniqueMatching.length;
 
         }
 
@@ -257,7 +286,7 @@ export function letterFocus({ e }) {
 
 
     // ======================================================
-    // MAKE NON-FOCUSABLE ELEMENTS FOCUSABLE
+    // MAKE NON-NATURAL ELEMENTS FOCUSABLE
     // ======================================================
 
     if (
@@ -265,8 +294,7 @@ export function letterFocus({ e }) {
         !target.hasAttribute("tabindex")
     ) {
 
-        target.tabIndex =
-            -1;
+        target.tabIndex = -1;
 
     }
 
@@ -286,6 +314,13 @@ export function letterFocus({ e }) {
         "Letter navigation:",
         {
             key,
+
+            index:
+                newIndex,
+
+            totalMatches:
+                uniqueMatching.length,
+
             target:
                 target.getAttribute(
                     "data-nav-target"
@@ -293,6 +328,75 @@ export function letterFocus({ e }) {
                 target.textContent.trim()
         }
     );
+
+}
+
+
+// ==========================================================
+// IS TARGET CURRENTLY AVAILABLE?
+// ==========================================================
+
+function isAvailableTarget(element) {
+
+    if (!element) {
+        return false;
+    }
+
+
+    // ======================================================
+    // HIDDEN ATTRIBUTE
+    // ======================================================
+
+    if (
+        element.hidden
+    ) {
+        return false;
+    }
+
+
+    // ======================================================
+    // DISABLED
+    // ======================================================
+
+    if (
+        element.disabled
+    ) {
+        return false;
+    }
+
+
+    // ======================================================
+    // ARIA HIDDEN
+    // ======================================================
+
+    if (
+        element.getAttribute(
+            "aria-hidden"
+        ) === "true"
+    ) {
+        return false;
+    }
+
+
+    // ======================================================
+    // CSS VISIBILITY
+    // ======================================================
+
+    const style =
+        window.getComputedStyle(
+            element
+        );
+
+
+    if (
+        style.display === "none" ||
+        style.visibility === "hidden"
+    ) {
+        return false;
+    }
+
+
+    return true;
 
 }
 
