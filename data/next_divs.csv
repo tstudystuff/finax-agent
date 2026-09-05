@@ -1,58 +1,120 @@
 Ticker,Share Price,Frequency,Dividend Amount,Company,Payment Date,Ex-Dividend Date,Ticker URL
-AAON,$75.38,Unknown,0.1,"AAON, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/aaon/dividend-history
-CASS,$55.20,4 (Quarterly),0.32,"Cass Information Systems, Inc Common Stock",9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/cass/dividend-history
-CBSH,$57.14,4 (Quarterly),0.275,"Commerce Bancshares, Inc. Common Stock",9/22/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/cbsh/dividend-history
-CHRW,$148.31,4 (Quarterly),0.63,"C.H. Robinson Worldwide, Inc. Common Stock",10/02/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/chrw/dividend-history
-CURI,$2.8105,4 (Quarterly),0.085,CuriosityStream Inc. Class A Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/curi/dividend-history
-EXC,$43.83,4 (Quarterly),0.42,Exelon Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/exc/dividend-history
-EXPO,$70.30,4 (Quarterly),0.31,"Exponent, Inc. Common Stock",9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/expo/dividend-history
-FRME,$40.8495,4 (Quarterly),0.37,First Merchants Corporation Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/frme/dividend-history
-GOOG,$333.0389,4 (Quarterly),0.22,Alphabet Inc. Class C Capital Stock,9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/goog/dividend-history
-GOOGL,$336.4495,4 (Quarterly),0.22,Alphabet Inc. Class A Common Stock,9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/googl/dividend-history
-HWC,$73.60,4 (Quarterly),0.5,Hancock Whitney Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/hwc/dividend-history
-ICFI,$89.00,Unknown,0.14,"ICF International, Inc. Common Stock",10/09/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/icfi/dividend-history
-III,$5.06,Unknown,0.045,Information Services Group Inc. Common Stock,9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/iii/dividend-history
-JKHY,$168.20,4 (Quarterly),0.61,"Jack Henry & Associates, Inc. Common Stock",9/23/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/jkhy/dividend-history
-KHC,$26.08,4 (Quarterly),0.4,The Kraft Heinz Company Common Stock,9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/khc/dividend-history
-KMB,$107.8549,4 (Quarterly),1.28,Kimberly-Clark Corporation Common Stock,10/02/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/kmb/dividend-history
-MBWM,$59.9392,4 (Quarterly),0.4,Mercantile Bank Corporation Common Stock,9/16/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/mbwm/dividend-history
-NAVI,$9.28,4 (Quarterly),0.16,Navient Corporation Common Stock,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/navi/dividend-history
-NTRS,$182.68,4 (Quarterly),0.88,Northern Trust Corporation Common Stock,10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ntrs/dividend-history
-OBT,$37.50,4 (Quarterly),0.18,"Orange County Bancorp, Inc. Common Stock",9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/obt/dividend-history
-ONB,$25.31,4 (Quarterly),0.145,Old National Bancorp Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/onb/dividend-history
-OTEX,$23.64,4 (Quarterly),0.28,Open Text Corporation Common Shares,9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/otex/dividend-history
-PEP,$140.37,4 (Quarterly),1.48,"PepsiCo, Inc. Common Stock",9/30/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/pep/dividend-history
-PYPL,$52.57,4 (Quarterly),0.14,"PayPal Holdings, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/pypl/dividend-history
-RECT,$1.39,Unknown,0.1,Rectitude Holdings Ltd Ordinary Shares,9/21/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/rect/dividend-history
-SATA,$99.90,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/08/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-SLM,$25.77,4 (Quarterly),0.13,SLM Corporation Common Stock,9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/slm/dividend-history
-SLMBP,$74.83,4 (Quarterly),1.4393042,"SLM Corporation Floating Rate Non-Cumulative Preferred Stock, Series B",9/15/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/slmbp/dividend-history
-STRA,$83.32,4 (Quarterly),0.6,"Strategic Education, Inc. Common Stock",9/14/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/stra/dividend-history
-TER,$333.79,4 (Quarterly),0.13,"Teradyne, Inc. Common Stock",9/25/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ter/dividend-history
-TILE,$37.00,Unknown,0.03,"Interface, Inc. Common Stock",9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/tile/dividend-history
-TRST,$56.6832,4 (Quarterly),0.4,TrustCo Bank Corp NY Common Stock,10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/trst/dividend-history
-UFCS,$54.15,4 (Quarterly),0.2,"United Fire Group, Inc. Common Stock",9/18/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/ufcs/dividend-history
-WSBC,$39.48,4 (Quarterly),0.38,"WesBanco, Inc. Common Stock",10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/wsbc/dividend-history
-WSBCO,$25.86,4 (Quarterly),0.4609,"WesBanco, Inc. Depositary Shares each representing 1/40th interest in a share of 7.375% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series B",10/01/2026,9/04/2026,https://www.nasdaq.com/market-activity/stocks/wsbco/dividend-history
-CCBG,$50.63,4 (Quarterly),0.27,Capital City Bank Group Common Stock,9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/ccbg/dividend-history
-CUVL,$6.22,Unknown,0.03582,Clinuvel Pharmaceuticals Limited American Depositary Shares,9/28/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/cuvl/dividend-history
-EBC,$21.52,4 (Quarterly),0.15,"Eastern Bankshares, Inc. Common Stock",9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/ebc/dividend-history
-HTHT,$46.8228,Unknown,0.87,H World Group Limited American Depositary Shares,9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/htht/dividend-history
-MFIC,$9.66,4 (Quarterly),0.31,MidCap Financial Investment Corporation Common Stock,9/24/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/mfic/dividend-history
-MZTI,$111.83,4 (Quarterly),1,The Marzetti Company Common Stock,9/30/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/mzti/dividend-history
-ROST,$229.24,4 (Quarterly),0.445,"Ross Stores, Inc. Common Stock",9/30/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/rost/dividend-history
-RRBI,$100.15,4 (Quarterly),0.25,"Red River Bancshares, Inc. Common Stock",9/17/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/rrbi/dividend-history
-SATA,$99.90,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/09/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-TCBS,$17.4628,4 (Quarterly),0.06,"Texas Community Bancshares, Inc. Common Stock",9/22/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/tcbs/dividend-history
-WDC,$444.57,4 (Quarterly),0.15,Western Digital Corporation Common Stock,9/17/2026,9/08/2026,https://www.nasdaq.com/market-activity/stocks/wdc/dividend-history
-AVT,$89.45,4 (Quarterly),0.37,"Avnet, Inc. Common Stock",9/23/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/avt/dividend-history
-CME,$285.525,4 (Quarterly),1.3,CME Group Inc. Class A Common Stock,9/25/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/cme/dividend-history
-EHLD,$10.50,4 (Quarterly),0.14,Euroholdings Ltd. Common Stock,9/16/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/ehld/dividend-history
-ESEA,$76.20,4 (Quarterly),0.8,Euroseas Ltd. Common Stock (Marshall Islands),9/16/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/esea/dividend-history
-NWS,$34.25,2 (Semi-Annual),0.1,News Corporation Class B Common Stock,10/07/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/nws/dividend-history
-NWSA,$30.45,2 (Semi-Annual),0.1,News Corporation Class A Common Stock,10/07/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/nwsa/dividend-history
-QFIN,$8.50,Unknown,0.46,"Qfin Holdings, Inc. American Depositary Shares",10/01/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/qfin/dividend-history
-RUSHA,$48.42,Unknown,0.14,"Rush Enterprises, Inc. Common Stock Cl A",9/24/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/rusha/dividend-history
-RUSHB,$50.858,Unknown,0.14,"Rush Enterprises, Inc. Class B",9/24/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/rushb/dividend-history
-SATA,$99.90,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/10/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
-TFSL,$17.27,4 (Quarterly),0.3175,TFS Financial Corporation Common Stock,9/23/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/tfsl/dividend-history
+AVT,$92.06,4 (Quarterly),0.37,"Avnet, Inc. Common Stock",9/23/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/avt/dividend-history
+CME,$281.29,4 (Quarterly),1.3,CME Group Inc. Class A Common Stock,9/25/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/cme/dividend-history
+EHLD,$11.515,4 (Quarterly),0.14,Euroholdings Ltd. Common Stock,9/16/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/ehld/dividend-history
+ESEA,$76.35,4 (Quarterly),0.8,Euroseas Ltd. Common Stock (Marshall Islands),9/16/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/esea/dividend-history
+NWS,$33.90,2 (Semi-Annual),0.1,News Corporation Class B Common Stock,10/07/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/nws/dividend-history
+NWSA,$30.39,2 (Semi-Annual),0.1,News Corporation Class A Common Stock,10/07/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/nwsa/dividend-history
+QFIN,$9.06,Unknown,0.46,"Qfin Holdings, Inc. American Depositary Shares",10/01/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/qfin/dividend-history
+RUSHA,$50.95,Unknown,0.14,"Rush Enterprises, Inc. Common Stock Cl A",9/24/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/rusha/dividend-history
+RUSHB,$51.82,Unknown,0.14,"Rush Enterprises, Inc. Class B",9/24/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/rushb/dividend-history
+SATA,$100.01,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/10/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+TFSL,$17.57,4 (Quarterly),0.3175,TFS Financial Corporation Common Stock,9/23/2026,9/09/2026,https://www.nasdaq.com/market-activity/stocks/tfsl/dividend-history
+AUBN,$26.54,4 (Quarterly),0.27,"Auburn National Bancorporation, Inc. Common Stock",9/25/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/aubn/dividend-history
+BCML,$30.80,4 (Quarterly),0.3,BayCom Corp Common Stock,10/08/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/bcml/dividend-history
+BHFAM,$10.205,4 (Quarterly),0.2890625,"Brighthouse Financial, Inc. Depositary shares each representing a 1/1,000th Interest in a Share of 4.625% Non-Cumulative Preferred Stock, Series D",9/25/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/bhfam/dividend-history
+BHFAN,$11.75,4 (Quarterly),0.3359375,"Brighthouse Financial, Inc. Depositary shares, each representing a 1/1,000th interest in a share of 5.375% Non-Cumulative Preferred Stock, Series C",9/25/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/bhfan/dividend-history
+BHFAO,$14.61,4 (Quarterly),0.421875,"Brighthouse Financial, Inc. Depositary Shares 6.75% Non-Cumulative Preferred Stock, Series B",9/25/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/bhfao/dividend-history
+BHFAP,$14.30,4 (Quarterly),0.4125,"Brighthouse Financial, Inc. Depositary Shares 6.6% Non-Cumulative Preferred Stock, Series A",9/25/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/bhfap/dividend-history
+BPOP,$171.32,4 (Quarterly),0.9,"Popular, Inc. Common Stock",10/01/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/bpop/dividend-history
+CASH,$83.19,4 (Quarterly),0.05,"Pathward Financial, Inc. Common Stock",10/01/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/cash/dividend-history
+GLAD,$20.10,12 (Monthly),0.18,Gladstone Capital Corporation Common Stock,9/16/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/glad/dividend-history
+KSPI,$107.53,Unknown,2.1490002,Joint Stock Company Kaspi.kz American Depository Shares,9/04/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/kspi/dividend-history
+NDSN,$318.36,4 (Quarterly),0.94,Nordson Corporation Common Stock,10/02/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/ndsn/dividend-history
+NRIM,$26.45,4 (Quarterly),0.17,Northrim BanCorp Inc Common Stock,9/18/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/nrim/dividend-history
+NVDA,$230.36,4 (Quarterly),0.25,NVIDIA Corporation Common Stock,10/01/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/nvda/dividend-history
+SATA,$100.01,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/11/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+TRMD,$35.18,Unknown,2.4,TORM plc Class A Common Stock,9/24/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/trmd/dividend-history
+UBCP,$15.88,4 (Quarterly),0.1975,"United Bancorp, Inc. Common Stock",9/18/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/ubcp/dividend-history
+UMBF,$143.76,4 (Quarterly),0.5,UMB Financial Corporation Common Stock,10/01/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/umbf/dividend-history
+VCTR,$113.73,4 (Quarterly),0.5,"Victory Capital Holdings, Inc. Class A Common Stock",9/25/2026,9/10/2026,https://www.nasdaq.com/market-activity/stocks/vctr/dividend-history
+ADP,$277.62,4 (Quarterly),1.7,"Automatic Data Processing, Inc. Common Stock",10/01/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/adp/dividend-history
+AMSF,$25.99,4 (Quarterly),0.41,"AMERISAFE, Inc. Common Stock",9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/amsf/dividend-history
+BKNG,$193.29,4 (Quarterly),0.42,Booking Holdings Inc. Common Stock,9/30/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/bkng/dividend-history
+CRWS,$2.72,4 (Quarterly),0.03,Crown Crafts Inc Common Stock,10/02/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/crws/dividend-history
+CZFS,$82.92,4 (Quarterly),0.51,"Citizens Financial Services, Inc. Common Stock",9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/czfs/dividend-history
+FCAP,$64.82,4 (Quarterly),0.32,"First Capital, Inc. Common Stock",9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/fcap/dividend-history
+FMNB,$16.07,4 (Quarterly),0.18,Farmers National Banc Corp. Common Stock,9/30/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/fmnb/dividend-history
+FUSB,$16.48,4 (Quarterly),0.07,"First US Bancshares, Inc. Common Stock",10/01/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/fusb/dividend-history
+GLPI,$41.92,4 (Quarterly),0.82,"Gaming and Leisure Properties, Inc. Common Stock",9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/glpi/dividend-history
+NDAQ,$96.88,4 (Quarterly),0.31,"Nasdaq, Inc. Common Stock",9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/ndaq/dividend-history
+NSSC,$37.01,4 (Quarterly),0.17,"NAPCO Security Technologies, Inc. Common Stock",10/02/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/nssc/dividend-history
+REG,$75.26,4 (Quarterly),0.755,Regency Centers Corporation Common Stock,10/02/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/reg/dividend-history
+SAMG,$10.17,4 (Quarterly),0.21,Silvercrest Asset Management Group Inc. Class A Common Stock,9/18/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/samg/dividend-history
+SATA,$100.01,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/14/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+SHOO,$43.68,4 (Quarterly),0.21,"Steven Madden, Ltd. Common Stock",9/24/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/shoo/dividend-history
+SLRC,$12.57,4 (Quarterly),0.31,SLR Investment Corp. Common Stock,9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/slrc/dividend-history
+TBLD,$22.07,12 (Monthly),0.10417,Thornburg Income Builder Opportunities Trust Common Stock,9/21/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/tbld/dividend-history
+TCBK,$54.40,4 (Quarterly),0.36,TriCo Bancshares Common Stock,9/25/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/tcbk/dividend-history
+UBSI,$47.83,4 (Quarterly),0.38,"United Bankshares, Inc. Common Stock",10/01/2026,9/11/2026,https://www.nasdaq.com/market-activity/stocks/ubsi/dividend-history
+CCD,$24.45,12 (Monthly),0.195,Calamos Dynamic Convertible & Income Fund Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/ccd/dividend-history
+CGO,$13.23,12 (Monthly),0.09,Calamos Global Total Return Fund Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/cgo/dividend-history
+CHI,$12.53,12 (Monthly),0.095,Calamos Convertible Opportunities and Income Fund Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/chi/dividend-history
+CHW,$8.57,12 (Monthly),0.06,Calamos Global Dynamic Income Fund Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/chw/dividend-history
+CHY,$12.85,12 (Monthly),0.1,Calamos Convertible and High Income Fund Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/chy/dividend-history
+CPZ,$13.11,12 (Monthly),0.14,Calamos Long/Short Equity & Dynamic Income Trust Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/cpz/dividend-history
+CSQ,$21.09,12 (Monthly),0.135,Calamos Strategic Total Return Common Stock,9/21/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/csq/dividend-history
+FFIN,$33.44,4 (Quarterly),0.22,"First Financial Bankshares, Inc. Common Stock",10/01/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/ffin/dividend-history
+GBDC,$13.00,4 (Quarterly),0.33,"Golub Capital BDC, Inc. Common Stock",9/29/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/gbdc/dividend-history
+GROW,$2.98,12 (Monthly),0.0075,"U.S. Global Investors, Inc. Class A Common Stock",9/28/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/grow/dividend-history
+SATA,$100.01,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/15/2026,9/14/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+ACGLN,$15.84,4 (Quarterly),0.284375,"Arch Capital Group Ltd. Depositary Shares, each Representing a 1/1,000th Interest in a 4.550% Non-Cumulative Preferred Share, Series G",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/acgln/dividend-history
+ACGLO,$18.94,4 (Quarterly),0.340625,"Arch Capital Group Ltd. Depositary Shares Each Representing 1/1,000th Interest in a Share of 5.45% Non-Cumulative Preferred Shares, Series F",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/acglo/dividend-history
+ARCC,$20.04,4 (Quarterly),0.48,Ares Capital Corporation Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/arcc/dividend-history
+BCIC,$7.34,4 (Quarterly),0.09,BCP Investment Corporation Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/bcic/dividend-history
+CFFI,$94.89,4 (Quarterly),0.48,C&F Financial Corporation Common Stock,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/cffi/dividend-history
+COFS,$34.30,4 (Quarterly),0.29,"ChoiceOne Financial Services, Inc. Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/cofs/dividend-history
+CSWC,$24.58,Unknown,0.2534,Capital Southwest Corporation Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/cswc/dividend-history
+CTBI,$77.76,Unknown,0.71,"Community Trust Bancorp, Inc. Common Stock",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/ctbi/dividend-history
+DPZ,Unknown,Unknown,1.99,Domino's Pizza Inc Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/dpz/dividend-history
+EFSC,Unknown,Unknown,0.35,Enterprise Financial Services Corporation Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/efsc/dividend-history
+FDUS,Unknown,Unknown,0.5,Fidus Investment Corporation Common Stock,9/29/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/fdus/dividend-history
+FISI,Unknown,Unknown,0.32,"Financial Institutions, Inc. Common Stock",10/02/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/fisi/dividend-history
+FUND,Unknown,Unknown,0.1503,"Sprott Focus Trust, Inc. Common Stock",9/29/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/fund/dividend-history
+GECC,Unknown,Unknown,0.25,Great Elm Capital Corp. Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/gecc/dividend-history
+GECCG,Unknown,Unknown,0.484375,Great Elm Capital Corp. 7.75% Notes Due 2030,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/geccg/dividend-history
+GECCH,Unknown,Unknown,0.50781,Great Elm Capital Corp. 8.125% Notes Due 2029,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/gecch/dividend-history
+GECCI,Unknown,Unknown,0.53125,Great Elm Capital Corp. 8.50% NOTES DUE 2029,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/gecci/dividend-history
+GEGGL,Unknown,Unknown,0.45313,"Great Elm Group, Inc. 7.25% Notes due 2027",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/geggl/dividend-history
+GIII,Unknown,Unknown,0.1,"G-III Apparel Group, LTD. Common Stock",9/29/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/giii/dividend-history
+GILD,Unknown,Unknown,0.82,"Gilead Sciences, Inc. Common Stock",9/29/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/gild/dividend-history
+HWBK,Unknown,Unknown,0.21,"Hawthorn Bancshares, Inc. Common Stock",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/hwbk/dividend-history
+IPAR,Unknown,Unknown,0.8,"Interparfums, Inc. Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/ipar/dividend-history
+IRDM,Unknown,Unknown,0.15,Iridium Communications Inc Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/irdm/dividend-history
+JJSF,Unknown,Unknown,0.8,J & J Snack Foods Corp. Common Stock,10/06/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/jjsf/dividend-history
+JRVR,Unknown,Unknown,0.01,"James River Group Holdings, Inc. Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/jrvr/dividend-history
+MBIN,Unknown,Unknown,0.11,Merchants Bancorp Common Stock,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/mbin/dividend-history
+MBINL,Unknown,Unknown,0.4765,"Merchants Bancorp Depositary Shares, Each Representing a 1/40thInterest in a Share of 7.25% Fixed Rate Series E Non-CumulativePerpetual Preferred Stock, without par value",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/mbinl/dividend-history
+MBINM,Unknown,Unknown,0.5156,"Merchants Bancorp Depositary Shares, Each Representing a 1/40th Interest in a Share of 8.25% Fixed-Rate Reset Series D Non-Cumulative Perpetual Preferred Stock",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/mbinm/dividend-history
+MBINN,Unknown,Unknown,0.375,Merchants Bancorp Depositary Shares Preferred Series C,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/mbinn/dividend-history
+MBNKO,Unknown,Unknown,0.5625,"Medallion Bank Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series G, par value $1.00 per share",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/mbnko/dividend-history
+MNSBP,Unknown,Unknown,0.46875,"MainStreet Bancshares, Inc. Depositary Shares",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/mnsbp/dividend-history
+MSBIP,Unknown,Unknown,0.4844,"Midland States Bancorp, Inc. Depositary Shares Each Representing a 1/40th Interest in a Share of 7.750% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series A",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/msbip/dividend-history
+NTRSO,Unknown,Unknown,0.29375,"Northern Trust Corporation Depositary Shares Each Representing a 1/1,000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/ntrso/dividend-history
+OCCI,Unknown,Unknown,0.05,"OFS Credit Company, Inc. Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/occi/dividend-history
+OCCIM,Unknown,Unknown,0.1640625,"OFS Credit Company, Inc. 7.875% Series F Term Preferred Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/occim/dividend-history
+OCCIN,Unknown,Unknown,0.109375,"OFS Credit Company, Inc. 5.25% Series E Term Preferred Stock Due 2026",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/occin/dividend-history
+OCSL,Unknown,Unknown,0.33,Oaktree Specialty Lending Corporation Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/ocsl/dividend-history
+OXLCG,Unknown,Unknown,0.496875,Oxford Lane Capital Corp. 7.95% Notes due 2032,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/oxlcg/dividend-history
+OXLCI,Unknown,Unknown,0.546875,Oxford Lane Capital Corp. 8.75% Notes due 2030,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/oxlci/dividend-history
+OXLCL,Unknown,Unknown,0.421875,Oxford Lane Capital Corp. 6.75% Notes due 2031,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/oxlcl/dividend-history
+OXLCZ,Unknown,Unknown,0.3125,Oxford Lane Capital Corp. 5.00% Notes due 2027,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/oxlcz/dividend-history
+PECO,Unknown,Unknown,0.115,"Phillips Edison & Company, Inc. Common Stock",10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/peco/dividend-history
+PSKY,Unknown,Unknown,0.05,Paramount Skydance Corporation Class B Common Stock,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/psky/dividend-history
+QQQX,Unknown,Unknown,0.738,Nuveen NASDAQ 100 Dynamic Overwrite Fund Shares of Beneficial Interest,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/qqqx/dividend-history
+RICK,Unknown,Unknown,0.08,"RCI Hospitality Holdings, Inc. Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/rick/dividend-history
+RRR,Unknown,Unknown,0.26,"Red Rock Resorts, Inc. Class A Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/rrr/dividend-history
+SATA,$100.01,Daily,0.0516,"Strive, Inc. Variable Rate Series A Perpetual Preferred Stock",9/16/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/sata/dividend-history
+SBCF,Unknown,Unknown,0.19,Seacoast Banking Corporation of Florida Common Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/sbcf/dividend-history
+SFNC,Unknown,Unknown,0.215,Simmons First National Corporation Class A Common Stock,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/sfnc/dividend-history
+STRC,Unknown,Unknown,0.5,Strategy Inc Variable Rate Series A Perpetual Stretch Preferred Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/strc/dividend-history
+STRD,Unknown,Unknown,2.5,Strategy Inc 10.00% Series A Perpetual Stride Preferred Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/strd/dividend-history
+STRF,Unknown,Unknown,2.5,Strategy Inc 10.00% Series A Perpetual Strife Preferred Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/strf/dividend-history
+STRK,Unknown,Unknown,2,Strategy Inc 8.00% Series A Perpetual Strike Preferred Stock,9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/strk/dividend-history
+TROW,Unknown,Unknown,1.3,"T. Rowe Price Group, Inc. Common Stock",9/29/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/trow/dividend-history
+VLY,Unknown,Unknown,0.11,Valley National Bancorp Common Stock,10/01/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/vly/dividend-history
+VLYPN,Unknown,Unknown,0.515625,"Valley National Bancorp 8.250% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series C",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/vlypn/dividend-history
+VLYPO,Unknown,Unknown,0.483756,"Valley National Bancorp 5.50% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock, Series B",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/vlypo/dividend-history
+VLYPP,Unknown,Unknown,0.501134,"Valley National Bancorp 6.25% Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock, Series A",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/vlypp/dividend-history
+VRSK,Unknown,Unknown,0.5,"Verisk Analytics, Inc. Common Stock",9/30/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/vrsk/dividend-history
+XEL,Unknown,Unknown,0.5925,Xcel Energy Inc. Common Stock,10/20/2026,9/15/2026,https://www.nasdaq.com/market-activity/stocks/xel/dividend-history
